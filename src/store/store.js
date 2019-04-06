@@ -10,13 +10,13 @@ export default new Vuex.Store({
     zip: null
   },
   getters: {
-    [GET_ZIP]: function () {
-        return this.state.zip
+    [GET_ZIP]: function (state) {
+      return state.zip
     }
   },
   mutations: {
-    [SET_ZIP]: function (newZip) {
-        this.state.zip = newZip
+    [SET_ZIP]: function (state, newZip) {
+      state.zip = newZip
     }
   },
   actions: {}

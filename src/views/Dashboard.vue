@@ -5,10 +5,10 @@
 </template>
 
 <script>
-    // @ is an alias to /src
-    // import HelloWorld from '@/components/HelloWorld.vue'
+  // @ is an alias to /src
+  // import HelloWorld from '@/components/HelloWorld.vue'
 
-    export default {
-        name: 'Dashboard'
-    }
+  export default {
+    name: 'Dashboard'
+  }
 </script>

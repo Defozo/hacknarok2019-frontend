@@ -11,24 +11,24 @@
 </template>
 
 <script>
-    import {mapMutations} from 'vuex'
-    import {SET_ZIP} from "../store/mutations";
+  import {mapMutations} from 'vuex'
+  import {SET_ZIP} from "../store/mutations";
 
-    export default {
-        name: "Welcome",
-        data() {
-            return {
-                file: null
-            }
-        },
-        methods: {
-            ...mapMutations([SET_ZIP]),
-            handleFileUpload() {
-                const file = this.$refs.file.files[0];
-                this.setZip(file)
-            }
-        }
+  export default {
+    name: "Welcome",
+    data() {
+      return {
+        file: null
+      }
+    },
+    methods: {
+      ...mapMutations([SET_ZIP]),
+      handleFileUpload() {
+        const file = this.$refs.file.files[0];
+        this.setZip(file)
+      }
     }
+  }
 
 </script>
 
