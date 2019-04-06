@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import { SET_OWNER, SET_FRIENDS, SET_MESSAGES } from '@/store/mutations'
+import { GET_OWNER, GET_FRIENDS, GET_MESSAGES } from '@/store/getters'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
