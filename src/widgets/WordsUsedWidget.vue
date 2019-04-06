@@ -1,69 +1,91 @@
 <template>
   <div class="words_used">
-    <h2 class="p-4 text-grey">Words Used</h2>
+    <h2 class="p-8 text-grey">Most Used Words</h2>
 
     <div class="flex align-middle justify-between flex-wrap">
       <div
-        class="m-8 w-32 h-32 rounded-full shadow"
+        class="mx-8 w-32 h-32"
         v-bind:key="word.text" v-for="(word, index) in topWordsUsed">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"/>
         </svg>
-        <div class="word_amount" :ref="`word${index}`">{{animateNumbers(`word${index}`, word.amount)}}</div>
-        <div class="word_text">{{word.text}}</div>
+        <div class="word_amount text-purple-dark font-extrabold" v-text="status(index)"></div>
+        <div class="word_text font-medium text-grey-darker">{{word.text}}</div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+  import Vue from 'vue'
+
   export default {
     name: 'WordsUsedWidget',
     data() {
       return {
         numbers: [],
+        status2: [0 ,0 ,0 ,0 ,0],
+        // status: 0,
         topWordsUsed: [
           {
             text: 'dupa',
             amount: 9600,
           },
-          // {
-          //   text: 'siema',
-          //   amount: 4570,
-          // },
-          // {
-          //   text: 'dzionek',
-          //   amount: 1230,
-          // },
-          // {
-          //   text: 'ozor',
-          //   amount: 960,
-          // },
-          // {
-          //   text: 'XD',
-          //   amount: 340,
-          // },
+          {
+            text: 'siema',
+            amount: 4570,
+          },
+          {
+            text: 'dzionek',
+            amount: 1230,
+          },
+          {
+            text: 'ozor',
+            amount: 960,
+          },
+          {
+            text: 'XD',
+            amount: 340,
+          },
         ],
       }
     },
-    methods: {
-      animateNumbers(ref, number){
-        console.log(this.$refs)
-        const el = this.$refs[ref]
-        console.log(el)
-        const seconds = this.calculateDuration(number)
-        const dt = seconds / number * 1000
-        setInterval(function () {
-          el.innerHTML += 1
-        }, dt)
-
+    computed: {
+      status() {
+        console.log('>>>>>')
+        return index => this.status2[index]
       },
+    },
+    methods: {
       calculateDurationTime(number){
         return `${this.calculateDuration(number)}s`
       },
       calculateDuration(number) {
         return Math.log(number * 0.0001 + 1) * 10
       },
+      initiateInterval(dt, index, maxAmount) {
+        console.log(dt, index, maxAmount)
+
+        const timeout = setInterval(() => {
+          Vue.set(this.status2, index, this.status2[index] + 100)
+
+          if (this.status2[index] >= maxAmount) {
+            Vue.set(this.status2, index, maxAmount)
+
+            clearInterval(timeout)
+          }
+        }, dt * 100)
+      },
+    },
+    created() {
+      this.topWordsUsed.forEach((el, index) => {
+        const duration = this.calculateDuration(el.amount)
+        const dt = duration / el.amount * 1000
+
+        console.log(duration)
+
+        this.initiateInterval(dt, index, el.amount)
+      })
     },
   }
 </script>
