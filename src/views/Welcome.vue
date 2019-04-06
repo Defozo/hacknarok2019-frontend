@@ -30,9 +30,9 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapGetters, mapMutations } from 'vuex'
 
-  import { SET_FRIENDS, SET_OWNER, SET_MESSAGES } from '@/store/mutations'
+  import { SET_FRIENDS, SET_OWNER, SET_MESSAGES, SET_STATUS } from '@/store/mutations'
   import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
 
@@ -45,6 +45,7 @@
     },
     computed: mapGetters([GET_STATUS]),
     methods: {
+      ...mapMutations([SET_STATUS]),
       async handleFileUpload() {
         this.zip = this.$refs.zip.files[0]
 
@@ -59,6 +60,8 @@
         this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
         this.$store.commit(SET_OWNER, await zipHandler.getOwner())
         this.$store.commit(SET_MESSAGES, await zipHandler.getAllMessages())
+
+        this.setStatus('Done.')
 
         this.$router.push('/dashboard')
       },
