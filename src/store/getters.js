@@ -1,3 +1,3 @@
-export const SET_OWNER = 'SET_OWNER'
-export const SET_FRIENDS = 'SET_FRIENDS'
-export const SET_MESSAGES = 'SET_MESSAGES'
+export const GET_OWNER = 'getOwner'
+export const GET_FRIENDS = 'getFriends'
+export const GET_MESSAGES = 'getMessages'
