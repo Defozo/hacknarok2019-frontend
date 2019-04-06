@@ -3,13 +3,17 @@
 import JSZip from 'jszip'
 
 import EncodingFixer from '@/modules/EncodingFixer'
+import { SET_STATUS } from '@/store/mutations'
 
 export default class ZipHandler {
-  constructor() {
+  constructor(store) {
     this.files = []
+    this.store = store
   }
 
   async processFile(zipFile) {
+    this._status('Processing .zip file...')
+
     const jszip = new JSZip()
     const loaded = await jszip.loadAsync(zipFile)
 
@@ -20,6 +24,8 @@ export default class ZipHandler {
 
   async getFriends() {
     this._verifyReadiness()
+
+    this._status('Getting friends information...')
 
     const friendsFileName = 'friends/friends.json'
 
@@ -34,11 +40,15 @@ export default class ZipHandler {
   }
 
   async getAllMessages() {
+    this._verifyReadiness()
 
+    this._status('Fetching all messages...')
   }
 
   async getOwner() {
     this._verifyReadiness()
+
+    this._status('Getting owner information...')
 
     const profileInformationFileName = 'profile_information/profile_information.json'
 
@@ -51,6 +61,10 @@ export default class ZipHandler {
     const { profile: { name: { full_name: fullName } } } = JSON.parse(data)
 
     return EncodingFixer.fixText(fullName)
+  }
+
+  _status(status) {
+    this.store.commit(SET_STATUS, status)
   }
 
   _formatFriend({ name, timestamp }) {

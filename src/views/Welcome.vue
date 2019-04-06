@@ -24,12 +24,16 @@
         <div></div>
         <div></div>
       </div>
+      <div>{{ getStatus }}</div>
     </div>
   </div>
 </template>
 
 <script>
-  import { SET_FRIENDS, SET_OWNER } from '@/store/mutations'
+  import { mapGetters } from 'vuex'
+
+  import { SET_FRIENDS, SET_OWNER, SET_MESSAGES } from '@/store/mutations'
+  import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
 
   export default {
@@ -39,11 +43,12 @@
         zip: null,
       }
     },
+    computed: mapGetters([GET_STATUS]),
     methods: {
       async handleFileUpload() {
         this.zip = this.$refs.zip.files[0]
 
-        const zipHandler = new ZipHandler()
+        const zipHandler = new ZipHandler(this.$store)
         const wasSuccessful = await zipHandler.processFile(this.zip)
 
         if (!wasSuccessful) {
@@ -53,6 +58,7 @@
 
         this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
         this.$store.commit(SET_OWNER, await zipHandler.getOwner())
+        this.$store.commit(SET_MESSAGES, await zipHandler.getAllMessages())
 
         this.$router.push('/dashboard')
       },
