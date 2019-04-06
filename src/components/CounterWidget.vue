@@ -9,12 +9,16 @@
 <script>
 
   import Processor from '@/module/Processor'
+  import BatchProcessor from '@/module/BatchProcessor'
+  import Sanitizer from '@module/Sanitizer'
 
   export default {
     name: "CounterWidget",
     data() {
       return {
         processor: new Processor(),
+        batchProcessor: null,
+        sanitizer: new Sanitizer(),
         searchedPhrase: null,
         wordCount: null,
         wordArray: null,
@@ -23,8 +27,11 @@
       }
     },
     mounted() {
-      this.words = this.$store.getWords()
-      this.processor.setup()
+      let rawWords = this.$store.getWords();
+      let messages = this.$store.getMessages();
+      this.batchProcessor = new BatchProcessor(messages);
+      this.processor.setup(rawWords)
+      this.batchProcessor.setup()
     },
     methods: {
       findWordCount(){
