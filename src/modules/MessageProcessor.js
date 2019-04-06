@@ -1,12 +1,10 @@
-const ProcessingUtils = require('./ProcessingUtils');
+const Processor  =require('./Processor');
 
-module.exports =  class MessageProcessor {
+module.exports =  class MessageProcessor extends Processor {
   constructor(messages, username) {
+    super();
     this.messages = messages
     this.username = username
-    this.words = {}
-    this.emojis ={}
-    this.utils = new ProcessingUtils();
   }
 
   setup(){
@@ -16,16 +14,4 @@ module.exports =  class MessageProcessor {
     this.words = words
     this.emojis = emojis
   }
-
-  findWordCount(word) {
-    return this.words[word];
-  }
-
-  countWords() {
-    return {
-      wordArray: this.utils.sortObject(this.words),
-      emojiArray: this.utils.sortObject(this.emojis)
-    }
-  }
-
 }

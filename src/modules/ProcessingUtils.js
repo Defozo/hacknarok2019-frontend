@@ -6,7 +6,6 @@ module.exports = class ProcessingUtils {
   setup(messages) {
     let words = {};
     let emojis = {};
-    console.log(messages);
     messages.replace(new RegExp('\\n', 'g'), ' ').split(
         ' ').forEach(
         word => {
