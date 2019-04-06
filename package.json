@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "jszip": "^3.2.1",
+    "sentiment-polish": "^1.0.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -24,6 +25,7 @@
     "fibers": "^3.1.1",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
+    "tailwindcss": "^0.7.4",
     "vue-template-compiler": "^2.5.21"
   }
 }
