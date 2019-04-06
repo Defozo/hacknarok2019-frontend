@@ -7,7 +7,7 @@
         class="mx-8 w-32 h-32 p-2 rounded-full bg-white shadow-lg"
         v-bind:key="word.text" v-for="(word, index) in topWordsUsed">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-          <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"/>
+          <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"></path>
         </svg>
         <div class="word_amount text-purple-dark font-extrabold" v-text="status(index)"></div>
         <div class="word_text font-medium text-grey-darker">{{word.text}}</div>
@@ -24,8 +24,7 @@
     data() {
       return {
         numbers: [],
-        status2: [0 ,0 ,0 ,0 ,0],
-        // status: 0,
+        statusArray: [0, 0, 0, 0, 0],
         topWordsUsed: [
           {
             text: 'dupa',
@@ -52,25 +51,22 @@
     },
     computed: {
       status() {
-        console.log('>>>>>')
-        return index => this.status2[index]
+        return index => this.statusArray[index]
       },
     },
     methods: {
-      calculateDurationTime(number){
+      calculateDurationTime(number) {
         return `${this.calculateDuration(number)}s`
       },
       calculateDuration(number) {
         return Math.log(number * 0.0001 + 1) * 10
       },
       initiateInterval(dt, index, maxAmount) {
-        console.log(dt, index, maxAmount)
-
         const timeout = setInterval(() => {
-          Vue.set(this.status2, index, this.status2[index] + 100)
+          Vue.set(this.statusArray, index, this.statusArray[index] + 100)
 
-          if (this.status2[index] >= maxAmount) {
-            Vue.set(this.status2, index, maxAmount)
+          if (this.statusArray[index] >= maxAmount) {
+            Vue.set(this.statusArray, index, maxAmount)
 
             clearInterval(timeout)
           }
@@ -81,8 +77,6 @@
       this.topWordsUsed.forEach((el, index) => {
         const duration = this.calculateDuration(el.amount)
         const dt = duration / el.amount * 1000
-
-        console.log(duration)
 
         this.initiateInterval(dt, index, el.amount)
       })

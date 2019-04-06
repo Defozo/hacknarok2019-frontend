@@ -16,7 +16,7 @@
           ref="zip"
           class="hidden"
           @change="handleFileUpload()"
-        />
+        >
       </label>
       <div class="lds-ring m-4" v-else>
         <div></div>
@@ -33,7 +33,7 @@
   import ZipHandler from '@/modules/ZipHandler'
 
   export default {
-    name: "Welcome",
+    name: 'Welcome',
     data() {
       return {
         zip: null,
@@ -46,7 +46,7 @@
         const zipHandler = new ZipHandler()
         const wasSuccessful = await zipHandler.processFile(this.zip)
 
-        if (! wasSuccessful) {
+        if (!wasSuccessful) {
           console.log('Shit happened.') // @todo handle error
           return
         }

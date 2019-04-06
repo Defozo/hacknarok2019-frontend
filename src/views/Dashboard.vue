@@ -9,14 +9,11 @@
 </template>
 
 <script>
-  // @ is an alias to /src
-  // import HelloWorld from '@/components/HelloWorld.vue'
-
   import MostMessaged from '../widgets/MostMessaged'
-  import WordsUsedWidget from "../widgets/WordsUsedWidget";
+  import WordsUsedWidget from '../widgets/WordsUsedWidget'
 
   export default {
     name: 'Dashboard',
-    components: {WordsUsedWidget, MostMessaged },
+    components: { WordsUsedWidget, MostMessaged },
   }
 </script>
