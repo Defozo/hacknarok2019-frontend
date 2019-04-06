@@ -1,5 +1,6 @@
 'use strict'
 
+import _ from 'lodash'
 import JSZip from 'jszip'
 
 import EncodingFixer from '@/modules/EncodingFixer'
@@ -36,13 +37,52 @@ export default class ZipHandler {
     const file = this.files[friendsFileName]
     const data = await file.async('binarystring')
 
+    this._status('Fixing encoding in friends information...')
+
     return JSON.parse(data).friends.map(this._formatFriend)
   }
 
-  async getAllMessages() {
+  async getAllMessages(owner) {
     this._verifyReadiness()
 
     this._status('Fetching all messages...')
+
+    const regex = new RegExp('^messages/inbox/.+/message_1.json$')
+    const messagesFileNames = _.keys(this.files).filter(fileName => regex.test(fileName))
+    const result = []
+    const totalMessages = messagesFileNames.length
+
+    let i = 0
+
+    for (const fileName of messagesFileNames) {
+      if (i % 20 === 0) {
+        this._status(`Fetched messages ${i} out of ${totalMessages}.`)
+      }
+
+      const fileContents = await this.files[fileName].async('binarystring')
+      const { participants, messages, title } = JSON.parse(fileContents)
+
+      if (participants.length != 2) {
+        continue
+      }
+
+      const maybeParticipant = participants.filter(({ name }) => EncodingFixer.fixText(name) !== owner)
+
+      if (maybeParticipant.length !== 1) {
+        throw `An error occurred parsing conversation with ${title}`
+      }
+
+      const participant = maybeParticipant[0].name
+
+      result.push({
+        name: EncodingFixer.fixText(participant),
+        messages: messages.map(this._formatMessage),
+      })
+
+      i += 1
+    }
+
+    return result
   }
 
   async getOwner() {
@@ -58,13 +98,25 @@ export default class ZipHandler {
 
     const file = this.files[profileInformationFileName]
     const data = await file.async('binarystring')
+
+    this._status('Parsing owner information...')
+
     const { profile: { name: { full_name: fullName } } } = JSON.parse(data)
+
+    this._status('Fixing encoding in owner information...')
 
     return EncodingFixer.fixText(fullName)
   }
 
   _status(status) {
     this.store.commit(SET_STATUS, status)
+  }
+
+  _formatMessage({ sender_name: sender, content }) {
+    return {
+      sender: EncodingFixer.fixText(sender),
+      content: EncodingFixer.fixText(content),
+    }
   }
 
   _formatFriend({ name, timestamp }) {

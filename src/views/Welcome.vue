@@ -58,8 +58,11 @@
         }
 
         this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
-        this.$store.commit(SET_OWNER, await zipHandler.getOwner())
-        this.$store.commit(SET_MESSAGES, await zipHandler.getAllMessages())
+
+        const owner = await zipHandler.getOwner()
+        this.$store.commit(SET_OWNER, owner)
+
+        this.$store.commit(SET_MESSAGES, await zipHandler.getAllMessages(owner))
 
         this.setStatus('Done.')
 
