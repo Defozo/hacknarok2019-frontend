@@ -1,5 +1,5 @@
 <template>
-  <div class="most_messaged">
+  <div class="most_messaged flex flex-col">
     <h2 class="p-4 text-grey">Most Messaged</h2>
     <div class="flex flex-col">
       <div
@@ -21,12 +21,15 @@
         </div>
       </div>
     </div>
+    <messages-with-choosen></messages-with-choosen>
   </div>
 </template>
 
 <script>
+  import MessagesWithChoosen from "./MessagesWithChoosen";
   export default {
     name: 'MostMessaged',
+    components: {MessagesWithChoosen},
     data() {
       return {
         mostMessaged: [
