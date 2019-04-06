@@ -9,22 +9,26 @@
 <script>
 
   import Processor from '@/module/Processor'
+  import Sanitizer from '@module/Sanitizer'
 
   export default {
     name: "CounterWidget",
     data() {
       return {
         processor: new Processor(),
+        sanitizer: new Sanitizer(),
         searchedPhrase: null,
         wordCount: null,
         wordArray: null,
         emojiArray: null,
         words: null,
       }
+
     },
     mounted() {
-      this.words = this.$store.getWords()
-      this.processor.setup()
+      let rawWords = this.$store.getWords();
+      const cleanedWords = this.sanitizer.prepareMessages(rawWords);
+      this.processor.setup(cleanedWords)
     },
     methods: {
       findWordCount(){

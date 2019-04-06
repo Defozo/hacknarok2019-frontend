@@ -1,49 +1,14 @@
-const emojiArray = require('./emojis');
+const ProcessingUtils = require('./ProcessingUtils');
 
-export default class Processor {
+module.exports = class Processor {
   constructor(){
     this.words = {};
     this.emojis = {};
+    this.utils = new ProcessingUtils();
   }
 
-  sortObject(obj) {
-    let arr = [];
-    for (let prop in obj) {
-      if (obj.hasOwnProperty(prop)) {
-        arr.push({
-          'key': prop,
-          'value': obj[prop]
-        });
-      }
-    }
-    arr.sort((a, b) => {
-      return b.value - a.value;
-    });
-    return arr;
-  }
-
-  addOrIncrementArray(array, word) {
-    if (array[word] === undefined) {
-      array[word] = 1;
-    } else {
-      let el = array[word];
-      array[word] = el + 1;
-    }
-  }
-
-  setup(expressions){
-    let words = {};
-    let emojis = {};
-    expressions.replace(new RegExp('\\n', 'g'), ' ').split(' ').forEach(
-        word => {
-          if (emojiArray.includes(word)) {
-            this.addOrIncrementArray(emojis, word)
-          } else {
-            if (word.length > 3) {
-              this.addOrIncrementArray(words, word);
-            }
-          }
-        });
+  setup(input){
+    const {words, emojis} = this.utils.setup(input);
     this.words = words;
     this.emojis = emojis;
   }
@@ -53,9 +18,12 @@ export default class Processor {
   }
 
   countWords() {
+    console.log("words");
+    console.log(this.words);
     return {
-      wordArray: this.sortObject(this.words),
-      emojiArray: this.sortObject(this.emojis)
+      wordArray: this.utils.sortObject(this.words),
+      emojiArray: this.utils.sortObject(this.emojis)
     }
   }
+
 }
