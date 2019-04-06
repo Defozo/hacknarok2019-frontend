@@ -6,10 +6,17 @@
       </h1>
       <label
         v-if="!zip"
-        class="p-4 m-4 shadow-lg text-white rounded bg-purple-dark white inline-block cursor-pointer">
+        class="p-4 m-4 shadow-lg text-white rounded bg-purple-dark white inline-block cursor-pointer"
+      >
         Choose zip
-        <input type="file" accept=".zip" id="zip" ref="zip" class="hidden"
-               v-on:change="handleFileUpload()"/>
+        <input
+          type="file"
+          accept=".zip"
+          id="zip"
+          ref="zip"
+          class="hidden"
+          @change="handleFileUpload()"
+        />
       </label>
       <div class="lds-ring m-4" v-else>
         <div></div>
@@ -22,22 +29,35 @@
 </template>
 
 <script>
+  import ZipHandler from '@/modules/ZipHandler'
+
   export default {
     name: "Welcome",
     data() {
       return {
-        zip: null
+        zip: null,
       }
     },
     methods: {
       async handleFileUpload() {
-        this.zip = this.$refs.zip.files[0];
-        //TODO replace with processing zip
-        this.$router.push( '/dashboard' );
-      }
-    }
-  }
+        this.zip = this.$refs.zip.files[0]
 
+        const zipHandler = new ZipHandler()
+        const wasSuccessful = await zipHandler.processFile(this.zip)
+
+        if (! wasSuccessful) {
+          console.log('Shit happened.') // @todo handle error
+          return
+        }
+
+        const friends = await zipHandler.getFriends()
+
+        console.log(friends)
+
+        // this.$router.push('/dashboard') // @todo
+      },
+    },
+  }
 </script>
 
 <style scoped>
