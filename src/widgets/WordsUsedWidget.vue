@@ -4,7 +4,7 @@
 
     <div class="flex align-middle justify-between flex-wrap">
       <div
-        class="mx-8 w-32 h-32"
+        class="mx-8 w-32 h-32 p-2 rounded-full bg-white shadow-lg"
         v-bind:key="word.text" v-for="(word, index) in topWordsUsed">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"/>
