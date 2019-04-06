@@ -3,49 +3,47 @@
 import _ from 'lodash'
 import JSZip from 'jszip'
 
-import store from '@/store/store'
-import { GET_ZIP } from '@/store/getters'
 import EncodingFixer from '@/modules/EncodingFixer'
 
 export default class ZipHandler {
-    constructor() {
-        this.files = []
+  constructor() {
+    this.files = []
+  }
+
+  async processFile(zipFile) {
+    const jszip = new JSZip()
+    const loaded = await jszip.loadAsync(zipFile)
+
+    this.files = loaded.files
+
+    return true
+  }
+
+  async getFriends() {
+    this._verifyReadiness()
+
+    const friendsFileName = 'friends/friends.json'
+
+    if (! (friendsFileName in this.files)) {
+      throw `There is no ${friendsFileName} file in given zip file. Have you exported it correctly?`
     }
 
-    async processFile(zipFile) {
-        const jszip = new JSZip()
-        const loaded = await jszip.loadAsync(zipFile)
+    const file = this.files[friendsFileName]
+    const data = await file.async('binarystring')
 
-        this.files = loaded.files
+    return JSON.parse(data).friends.map(this._formatFriend)
+  }
 
-        return true
+  _formatFriend({ name, timestamp }) {
+    return {
+      name: EncodingFixer.fixText(name),
+      timestamp,
     }
+  }
 
-    async getFriends() {
-        this._verifyReadiness()
-
-        const friendsFileName = 'friends/friends.json'
-
-        if (! (friendsFileName in this.files)) {
-            throw `There is no ${friendsFileName} file in given zip file. Have you exported it correctly?`
-        }
-
-        const file = this.files[friendsFileName]
-        const data = await file.async('binarystring')
-
-        return JSON.parse(data).friends.map(this._formatFriend)
+  _verifyReadiness() {
+    if (this.files.length === 0) {
+      throw 'There was no zip processed. Make sure to run processFile(file) before you run any other functions.'
     }
-
-    _formatFriend({ name, timestamp }) {
-        return {
-            name: EncodingFixer.fixText(name),
-            timestamp,
-        }
-    }
-
-    _verifyReadiness() {
-        if (this.files.length === 0) {
-            throw 'There was no zip processed. Make sure to run processFile(file) before you run any other functions.'
-        }
-    }
+  }
 }

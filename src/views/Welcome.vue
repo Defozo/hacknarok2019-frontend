@@ -39,7 +39,6 @@
       }
     },
     methods: {
-      ...mapMutations([SET_ZIP]),
       async handleFileUpload() {
         this.zip = this.$refs.zip.files[0]
 
@@ -56,8 +55,8 @@
         console.log(friends)
 
         // this.$router.push('/dashboard') // @todo
-      }
-    }
+      },
+    },
   }
 </script>
 
