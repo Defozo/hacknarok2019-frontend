@@ -1,7 +1,10 @@
 <template>
-    <div class="dashboard">
-        <widget></widget>
+  <div class="dashboard">
+    <div class="flex">
+      <div class="w-3/5 h-64"></div>
+      <most-messaged/>
     </div>
+  </div>
 </template>
 
 <script>
@@ -9,7 +12,10 @@
   // import HelloWorld from '@/components/HelloWorld.vue'
 
 
+  import MostMessaged from "../widgets/MostMessaged";
+
   export default {
-    name: 'Dashboard'
+    name: 'Dashboard',
+    components: {MostMessaged}
   }
 </script>
