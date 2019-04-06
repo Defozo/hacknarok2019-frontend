@@ -1,9 +1,9 @@
-const sentiment = require('sentiment-polish');
+const sentiment = require('sentiment-polish')
 
 export function getAverageSentiment(texts) {
-  let scoreSum = 0;
+  let scoreSum = 0
   for (let i = 0; i < texts.length; i++) {
-    scoreSum += sentiment(texts[i]).score;
+    scoreSum += sentiment(texts[i]).score
   }
-  return scoreSum / texts.length;
+  return scoreSum / texts.length
 }
