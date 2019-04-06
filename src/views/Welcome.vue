@@ -16,7 +16,7 @@
           ref="zip"
           class="hidden"
           @change="handleFileUpload()"
-        />
+        >
       </label>
       <div class="lds-ring m-4" v-else>
         <div></div>
@@ -24,34 +24,47 @@
         <div></div>
         <div></div>
       </div>
+      <div>{{ getStatus }}</div>
     </div>
   </div>
 </template>
 
 <script>
-  import { SET_FRIENDS } from '@/store/mutations'
+  import { mapGetters, mapMutations } from 'vuex'
+
+  import { SET_FRIENDS, SET_OWNER, SET_MESSAGES, SET_STATUS } from '@/store/mutations'
+  import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
 
   export default {
-    name: "Welcome",
+    name: 'Welcome',
     data() {
       return {
         zip: null,
       }
     },
+    computed: mapGetters([GET_STATUS]),
     methods: {
+      ...mapMutations([SET_STATUS]),
       async handleFileUpload() {
         this.zip = this.$refs.zip.files[0]
 
-        const zipHandler = new ZipHandler()
+        const zipHandler = new ZipHandler(this.$store)
         const wasSuccessful = await zipHandler.processFile(this.zip)
 
-        if (! wasSuccessful) {
+        if (!wasSuccessful) {
           console.log('Shit happened.') // @todo handle error
           return
         }
 
         this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
+
+        const owner = await zipHandler.getOwner()
+        this.$store.commit(SET_OWNER, owner)
+
+        this.$store.commit(SET_MESSAGES, await zipHandler.getAllMessages(owner))
+
+        this.setStatus('Done.')
 
         this.$router.push('/dashboard')
       },
