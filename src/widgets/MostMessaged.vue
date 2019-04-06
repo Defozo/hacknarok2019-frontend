@@ -26,25 +26,25 @@
 
 <script>
   export default {
-    name: "MostMessaged",
+    name: 'MostMessaged',
     data() {
       return {
         mostMessaged: [
           {
             name: 'Darek Czajkowski',
-            messages: 84120
+            messages: 84120,
           },
           {
             name: 'Michał Dziedzic',
-            messages: 64032
+            messages: 64032,
           },
           {
             name: 'Michał Kiełtyka',
-            messages: 78021
-          }
-        ]
+            messages: 78021,
+          },
+        ],
       }
-    }
+    },
   }
 </script>
 
@@ -53,8 +53,14 @@
     animation: slide-in 0.5s forwards;
     opacity: 0;
   }
-  .label:nth-child(2) { animation-delay: .5s }
-  .label:nth-child(3) { animation-delay: 1s }
+
+  .label:nth-child(2) {
+    animation-delay: .5s
+  }
+
+  .label:nth-child(3) {
+    animation-delay: 1s
+  }
 
   @keyframes slide-in {
     0% {
