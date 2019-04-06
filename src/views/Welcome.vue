@@ -29,7 +29,7 @@
 </template>
 
 <script>
-  import { SET_FRIENDS } from '@/store/mutations'
+  import { SET_FRIENDS, SET_OWNER } from '@/store/mutations'
   import ZipHandler from '@/modules/ZipHandler'
 
   export default {
@@ -52,6 +52,7 @@
         }
 
         this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
+        this.$store.commit(SET_OWNER, await zipHandler.getOwner())
 
         this.$router.push('/dashboard')
       },

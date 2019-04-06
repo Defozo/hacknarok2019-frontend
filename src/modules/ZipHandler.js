@@ -33,6 +33,26 @@ export default class ZipHandler {
     return JSON.parse(data).friends.map(this._formatFriend)
   }
 
+  async getAllMessages() {
+
+  }
+
+  async getOwner() {
+    this._verifyReadiness()
+
+    const profileInformationFileName = 'profile_information/profile_information.json'
+
+    if (!(profileInformationFileName in this.files)) {
+      throw `There is no ${profileInformationFileName} file in given zip file. Have you exported it correctly?`
+    }
+
+    const file = this.files[profileInformationFileName]
+    const data = await file.async('binarystring')
+    const { profile: { name: { full_name: fullName } } } = JSON.parse(data)
+
+    return EncodingFixer.fixText(fullName)
+  }
+
   _formatFriend({ name, timestamp }) {
     return {
       name: EncodingFixer.fixText(name),
