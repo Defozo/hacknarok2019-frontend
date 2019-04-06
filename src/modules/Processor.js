@@ -1,27 +1,60 @@
-const ProcessingUtils = require('./ProcessingUtils');
+const ProcessingUtils = require('./ProcessingUtils')
+const emojiArray = require('./emojis')
 
-module.exports = class Processor {
-  constructor(){
-    this.words = {};
-    this.emojis = {};
-    this.utils = new ProcessingUtils();
+export default class Processor {
+  constructor() {
+    this.words = {}
+    this.emojis = {}
+    this.utils = new ProcessingUtils()
   }
 
-  setup(input){
-    const {words, emojis} = this.utils.setup(input);
-    this.words = words;
-    this.emojis = emojis;
+  sortObject(obj) {
+    const arr = []
+    for (const prop in obj) {
+      if (prop in obj) {
+        arr.push({
+          'key': prop,
+          'value': obj[prop],
+        })
+      }
+    }
+    arr.sort((a, b) => {
+      return b.value - a.value
+    })
+    return arr
+  }
+
+  addOrIncrementArray(array, word) {
+    if (array[word] === undefined) {
+      array[word] = 1
+    } else {
+      const el = array[word]
+      array[word] = el + 1
+    }
+  }
+
+  setup(expressions) {
+    const words = {}
+    const emojis = {}
+    expressions.replace(new RegExp('\\n', 'g'), ' ').split(' ').forEach(word => {
+      if (emojiArray.includes(word)) {
+        this.addOrIncrementArray(emojis, word)
+      } else if (word.length > 3) {
+        this.addOrIncrementArray(words, word)
+      }
+    })
+    this.words = words
+    this.emojis = emojis
   }
 
   findWordCount(word) {
-    return this.words[word];
+    return this.words[word]
   }
 
   countWords() {
     return {
-      wordArray: this.utils.sortObject(this.words),
-      emojiArray: this.utils.sortObject(this.emojis)
+      wordArray: this.sortObject(this.words),
+      emojiArray: this.sortObject(this.emojis),
     }
   }
-
 }
