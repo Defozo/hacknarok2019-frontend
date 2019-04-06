@@ -1,6 +1,5 @@
 'use strict'
 
-import _ from 'lodash'
 import JSZip from 'jszip'
 
 import EncodingFixer from '@/modules/EncodingFixer'
