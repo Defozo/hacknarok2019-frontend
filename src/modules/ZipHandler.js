@@ -23,7 +23,7 @@ export default class ZipHandler {
 
     const friendsFileName = 'friends/friends.json'
 
-    if (! (friendsFileName in this.files)) {
+    if (!(friendsFileName in this.files)) {
       throw `There is no ${friendsFileName} file in given zip file. Have you exported it correctly?`
     }
 
