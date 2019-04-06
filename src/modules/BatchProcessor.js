@@ -1,16 +1,20 @@
-const Processor  =require('./Processor');
+import Processor from './Processor'
 
-module.exports =  class MessageProcessor extends Processor {
+export default class MessageProcessor extends Processor {
   constructor(messages, username) {
-    super();
+    super()
+
     this.messages = messages
     this.username = username
   }
 
-  setup(){
-    let messagesOfAUser = this.utils.getMessagesOfAUser(this.messages, "Lalala")
-    .map(message => message.content).join(' ');
-    const {words, emojis} = this.utils.setup(messagesOfAUser)
+  setup() {
+    let messagesOfAUser = this.utils.getMessagesOfAUser(this.messages, 'Lalala')
+      .map(message => message.content)
+      .join(' ')
+
+    const { words, emojis } = this.utils.setup(messagesOfAUser)
+
     this.words = words
     this.emojis = emojis
   }

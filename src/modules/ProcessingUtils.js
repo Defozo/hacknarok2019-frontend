@@ -1,65 +1,63 @@
-const emojiArray = require('./emojis')
-const Sanitizer = require('./Sanitizer');
-const _ = require('lodash')
+import emojiArray from '@/modules/emojis'
+import Sanitizer from '@/modules/Sanitizer'
 
-module.exports = class ProcessingUtils {
-
+export default class ProcessingUtils {
   setup(input) {
-  const sanitizer = new Sanitizer();
-  const messages = sanitizer.prepareMessages(input);
+    const sanitizer = new Sanitizer()
+    const messages = sanitizer.prepareMessages(input)
 
-    let words = {};
-    let emojis = {};
-    messages.replace(new RegExp('\\n', 'g'), ' ').split(
-        ' ').forEach(
-        word => {
-          if (emojiArray.includes(word)) {
-            this._addOrIncrementArray(emojis, word)
-          } else {
-            if (word.length > 3) {
-              this._addOrIncrementArray(words, word);
-            }
-          }
-        });
-    return {words, emojis};
+    const words = {}
+    const emojis = {}
+
+    messages.replace(new RegExp('\\n', 'g'), ' ')
+      .split(' ')
+      .forEach(word => {
+        if (emojiArray.includes(word)) {
+          this._addOrIncrementArray(emojis, word)
+        } else if (word.length > 3) {
+          this._addOrIncrementArray(words, word)
+        }
+      })
+
+    return { words, emojis }
   }
 
-  getMessagesOfAUser(allMessages, username){
-    const sanitizer = new Sanitizer();
+  getMessagesOfAUser(allMessages, username) {
+    const sanitizer = new Sanitizer()
+
     const messages = allMessages
-    .flatMap(message => message.messages)
-    .filter(message => message.sender_name === username)
-    .map(message => {
-      return {
+      .flatMap(message => message.messages)
+      .filter(message => message.sender_name === username)
+      .map(message => ({
         content: sanitizer.fixCharacters(message.content),
         sender: sanitizer.fixCharacters(message.sender_name),
-      }
-    });
-    return messages;
+      }))
+
+    return messages
   }
 
   sortObject(obj) {
-    let arr = [];
-    for (let prop in obj) {
-      if (obj.hasOwnProperty(prop)) {
+    const arr = []
+
+    for (const prop in obj) {
+      if (prop in obj) {
         arr.push({
           'key': prop,
-          'value': obj[prop]
-        });
+          'value': obj[prop],
+        })
       }
     }
-    arr.sort((a, b) => {
-      return b.value - a.value;
-    });
-    return arr;
+
+    arr.sort((a, b) => b.value - a.value)
+
+    return arr
   }
 
   _addOrIncrementArray(array, word) {
     if (array[word] === undefined) {
-      array[word] = 1;
+      array[word] = 1
     } else {
-      let el = array[word];
-      array[word] = el + 1;
+      array[word] += 1
     }
   }
 }

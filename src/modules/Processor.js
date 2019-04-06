@@ -1,5 +1,5 @@
-const ProcessingUtils = require('./ProcessingUtils')
-const emojiArray = require('./emojis')
+import ProcessingUtils from './ProcessingUtils'
+import emojiArray from './emojis'
 
 export default class Processor {
   constructor() {
