@@ -9,6 +9,7 @@
 <script>
 
   import Processor from '@/module/Processor'
+  import BatchProcessor from '@/module/BatchProcessor'
   import Sanitizer from '@module/Sanitizer'
 
   export default {
@@ -16,6 +17,7 @@
     data() {
       return {
         processor: new Processor(),
+        batchProcessor: null,
         sanitizer: new Sanitizer(),
         searchedPhrase: null,
         wordCount: null,
@@ -23,12 +25,13 @@
         emojiArray: null,
         words: null,
       }
-
     },
     mounted() {
       let rawWords = this.$store.getWords();
-      const cleanedWords = this.sanitizer.prepareMessages(rawWords);
-      this.processor.setup(cleanedWords)
+      let messages = this.$store.getMessages();
+      this.batchProcessor = new BatchProcessor(messages);
+      this.processor.setup(rawWords)
+      this.batchProcessor.setup()
     },
     methods: {
       findWordCount(){

@@ -3,7 +3,11 @@ const Sanitizer = require('./Sanitizer');
 const _ = require('lodash')
 
 module.exports = class ProcessingUtils {
-  setup(messages) {
+
+  setup(input) {
+  const sanitizer = new Sanitizer();
+  const messages = sanitizer.prepareMessages(input);
+
     let words = {};
     let emojis = {};
     messages.replace(new RegExp('\\n', 'g'), ' ').split(
