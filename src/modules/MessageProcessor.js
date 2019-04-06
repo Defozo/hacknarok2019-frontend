@@ -17,4 +17,15 @@ module.exports =  class MessageProcessor {
     this.emojis = emojis
   }
 
+  findWordCount(word) {
+    return this.words[word];
+  }
+
+  countWords() {
+    return {
+      wordArray: this.utils.sortObject(this.words),
+      emojiArray: this.utils.sortObject(this.emojis)
+    }
+  }
+
 }

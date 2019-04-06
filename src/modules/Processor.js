@@ -18,8 +18,6 @@ module.exports = class Processor {
   }
 
   countWords() {
-    console.log("words");
-    console.log(this.words);
     return {
       wordArray: this.utils.sortObject(this.words),
       emojiArray: this.utils.sortObject(this.emojis)
