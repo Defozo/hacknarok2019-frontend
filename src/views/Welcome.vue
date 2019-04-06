@@ -29,6 +29,7 @@
 </template>
 
 <script>
+  import { SET_FRIENDS } from '@/store/mutations'
   import ZipHandler from '@/modules/ZipHandler'
 
   export default {
@@ -50,11 +51,9 @@
           return
         }
 
-        const friends = await zipHandler.getFriends()
+        this.$store.commit(SET_FRIENDS, await zipHandler.getFriends())
 
-        console.log(friends)
-
-        // this.$router.push('/dashboard') // @todo
+        this.$router.push('/dashboard')
       },
     },
   }
