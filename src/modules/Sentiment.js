@@ -1,3 +1,7 @@
+/**
+ * @author Michał Kiełtyka
+ */
+
 const sentiment = require('sentiment-polish');
 
 /**
