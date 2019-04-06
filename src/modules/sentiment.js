@@ -1,9 +1,14 @@
 const sentiment = require('sentiment-polish');
 
-export function getAverageSentiment(texts) {
+/**
+ * Calculates average sentiment score for given messages.
+ * @param messages Messages to get average sentiment score for.
+ * @returns {number} Average sentiment for given messages. Vary from -5 to 5.
+ */
+export function getAverageSentimentScore(messages) {
   let scoreSum = 0;
-  for (let i = 0; i < texts.length; i++) {
-    scoreSum += sentiment(texts[i]).score;
+  for (let i = 0; i < messages.length; i++) {
+    scoreSum += sentiment(messages[i]).score;
   }
-  return scoreSum / texts.length;
+  return scoreSum / messages.length;
 }
