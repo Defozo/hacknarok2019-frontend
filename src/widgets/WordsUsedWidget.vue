@@ -5,7 +5,7 @@
     <div class="flex align-middle justify-between flex-wrap">
       <div
         class="mx-8 w-32 h-32 p-2 rounded-full bg-white shadow-lg"
-        v-bind:key="word.text" v-for="(word, index) in topWordsUsed">
+        v-bind:key="word.text" v-for="(word, index) in getTopWords">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"></path>
         </svg>
@@ -18,10 +18,9 @@
 
 <script>
   import Vue from 'vue'
-  import _ from 'lodash'
+  import { mapGetters } from 'vuex'
 
-  import { GET_MESSAGES, GET_OWNER } from '@/store/getters'
-  import BatchProcessor from '@/modules/BatchProcessor'
+  import { GET_OWNER, GET_TOP_WORDS, GET_TOP_EMOJIS } from '@/store/getters'
 
   export default {
     name: 'WordsUsedWidget',
@@ -32,17 +31,7 @@
       }
     },
     computed: {
-      topWordsUsed() {
-        // [{text: 'dupa',amount: 9600}]
-
-        const processor = new BatchProcessor(this.$store.getters[GET_MESSAGES], this.$store.getters[GET_OWNER])
-
-        processor.setup()
-
-        const count = processor.countWords()
-
-        return _.take(count.wordArray, 5).map(({ key, value }) => ({ text: key, amount: value }))
-      },
+      ...mapGetters([GET_OWNER, GET_TOP_WORDS, GET_TOP_EMOJIS]),
       status() {
         return index => this.statusArray[index]
       },
@@ -67,7 +56,7 @@
       },
     },
     created() {
-      this.topWordsUsed.forEach((el, index) => {
+      this.getTopWords.forEach((el, index) => {
         const duration = this.calculateDuration(el.amount)
         const dt = duration / el.amount * 1000
 
