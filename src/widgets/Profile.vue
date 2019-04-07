@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white p-8 mx-8  mb-2 mt-4 shadow-lg rounded-lg flex flex-col anim">
+    class=" p-8 mx-8 mb-2 mt-4 bg-white rounded-lg flex flex-col anim">
     <div class="flex">
       <div
         class="photo rounded-full h-24 w-24 bg-purple flex items-center text-5xl text-white font-extrabold justify-center">

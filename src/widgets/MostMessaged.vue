@@ -1,6 +1,6 @@
 <template>
   <div class="most_messaged flex flex-col mr-6">
-    <h2 class="p-4 text-grey">Most Messaged</h2>
+    <h2 class="p-4 text-grey text-right text-white">Most Messaged</h2>
     <div class="flex flex-col">
       <div
         class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg flex align-start label"

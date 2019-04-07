@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <input
-      class="px-8 py-4 mx-8 mt-8 self-center shadow-none w-1/3 bg-grey-lightest text-center text-3xl border-purple-dark animate text-purple-dark "
+      class="px-8 py-4 mx-8 mt-8 self-center shadow-none w-1/3 bg-transparent text-center text-3xl border-purple-dark animate text-purple-dark "
       :class="(!found) ? 'border-b-4' : 'border-b-0' "
       placeholder="Type your friend name here" @keyup.enter="search()"
       v-model="searchedPhrase">
