@@ -1,11 +1,7 @@
 import emojiArray from '@/modules/emojis'
-import Sanitizer from '@/modules/Sanitizer'
 
 export default class ProcessingUtils {
-  setup(input) {
-    const sanitizer = new Sanitizer()
-    const messages = sanitizer.prepareMessages(input)
-
+  setup(messages) {
     const words = {}
     const emojis = {}
 
@@ -23,17 +19,9 @@ export default class ProcessingUtils {
   }
 
   getMessagesOfAUser(allMessages, username) {
-    const sanitizer = new Sanitizer()
-
-    const messages = allMessages
+    return allMessages
       .flatMap(message => message.messages)
-      .filter(message => message.sender_name === username)
-      .map(message => ({
-        content: sanitizer.fixCharacters(message.content),
-        sender: sanitizer.fixCharacters(message.sender_name),
-      }))
-
-    return messages
+      .filter(message => message.sender === username)
   }
 
   sortObject(obj) {

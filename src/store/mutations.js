@@ -1,4 +1,6 @@
 export const SET_OWNER = 'setOwner'
 export const SET_FRIENDS = 'setFriends'
-export const SET_MESSAGES = 'setMessages'
+export const SET_TOP_WORDS = 'setTopWords'
+export const SET_TOP_EMOJIS = 'setTopEmojis'
+export const SET_TOP_PARTICIPANTS = 'setTopParticipants'
 export const SET_STATUS = 'setStatus'

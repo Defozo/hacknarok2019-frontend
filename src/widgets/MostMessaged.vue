@@ -25,10 +25,15 @@
 </template>
 
 <script>
-  import MessagesWithChoosen from "./MessagesWithChoosen";
+  import { mapGetters } from 'vuex'
+  import { GET_TOP_PARTICIPANTS } from '@/store/getters'
+  import MessagesWithChoosen from './MessagesWithChoosen'
+  
   export default {
     name: 'MostMessaged',
-    components: {MessagesWithChoosen},
+    components: {
+      MessagesWithChoosen,
+    },
     data() {
       return {
         mostMessaged: [
@@ -46,6 +51,12 @@
           },
         ],
       }
+    },
+    computed: {
+      ...mapGetters([GET_TOP_PARTICIPANTS]),
+      mostMessaged() {
+        return this.getTopParticipants
+      },
     },
   }
 </script>

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import { SET_STATUS, SET_OWNER, SET_FRIENDS, SET_MESSAGES } from '@/store/mutations'
-import { GET_STATUS, GET_OWNER, GET_FRIENDS, GET_MESSAGES } from '@/store/getters'
+import { SET_STATUS, SET_OWNER, SET_FRIENDS, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS } from '@/store/mutations'
+import { GET_STATUS, GET_OWNER, GET_FRIENDS, GET_TOP_WORDS, GET_TOP_EMOJIS, GET_TOP_PARTICIPANTS } from '@/store/getters'
 
 Vue.use(Vuex)
 
@@ -10,7 +10,9 @@ export default new Vuex.Store({
   state: {
     owner: '',
     friends: [],
-    messages: [],
+    topWords: [],
+    topEmojis: [],
+    topParticipants: [],
     status: '',
   },
   getters: {
@@ -20,8 +22,14 @@ export default new Vuex.Store({
     [GET_FRIENDS](state) {
       return state.friends
     },
-    [GET_MESSAGES](state) {
-      return state.messages
+    [GET_TOP_WORDS](state) {
+      return state.topWords
+    },
+    [GET_TOP_EMOJIS](state) {
+      return state.topEmojis
+    },
+    [GET_TOP_PARTICIPANTS](state) {
+      return state.topParticipants
     },
     [GET_STATUS](state) {
       return state.status
@@ -34,8 +42,14 @@ export default new Vuex.Store({
     [SET_FRIENDS](state, friends) {
       state.friends = friends
     },
-    [SET_MESSAGES](state, messages) {
-      state.messages = messages
+    [SET_TOP_WORDS](state, topWords) {
+      state.topWords = topWords
+    },
+    [SET_TOP_EMOJIS](state, topEmojis) {
+      state.topEmojis = topEmojis
+    },
+    [SET_TOP_PARTICIPANTS](state, topParticipants) {
+      state.topParticipants = topParticipants
     },
     [SET_STATUS](state, status) {
       state.status = status

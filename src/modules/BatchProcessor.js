@@ -1,6 +1,6 @@
 import Processor from './Processor'
 
-export default class MessageProcessor extends Processor {
+export default class BatchProcessor extends Processor {
   constructor(messages, username) {
     super()
 
@@ -9,7 +9,7 @@ export default class MessageProcessor extends Processor {
   }
 
   setup() {
-    let messagesOfAUser = this.utils.getMessagesOfAUser(this.messages, 'Lalala')
+    const messagesOfAUser = this.utils.getMessagesOfAUser(this.messages, this.username)
       .map(message => message.content)
       .join(' ')
 

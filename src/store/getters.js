@@ -1,4 +1,6 @@
 export const GET_OWNER = 'getOwner'
 export const GET_FRIENDS = 'getFriends'
-export const GET_MESSAGES = 'getMessages'
+export const GET_TOP_WORDS = 'getTopWords'
+export const GET_TOP_EMOJIS = 'getTopEmojis'
+export const GET_TOP_PARTICIPANTS = 'getTopParticipants'
 export const GET_STATUS = 'getStatus'
