@@ -9,7 +9,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
           <path :style="{'animation-duration': calculateDurationTime(word.amount)}" ref="path" class="dash" d="M83.5 416.5c-92-92-92-241 0-333s241-92 333 0 92 241 0 333" fill="none" stroke="#794acf" stroke-width="30" stroke-miterlimit="10"></path>
         </svg>
-        <div class="word_amount text-purple-dark font-extrabold" v-text="status(index)"></div>
+        <div class="word_amount text-lg text-purple-dark font-extrabold" v-text="status(index)"></div>
         <div class="word_text font-medium text-grey-darker">{{word.text}}</div>
       </div>
     </div>
@@ -93,7 +93,7 @@
 
   .word_amount{
     position: relative;
-    top: -75px;
+    top: -70px;
   }
   .word_text{
     position: relative;
