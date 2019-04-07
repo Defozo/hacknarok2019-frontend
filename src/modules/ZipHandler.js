@@ -45,7 +45,7 @@ export default class ZipHandler {
   async getAllMessages(owner) {
     this._verifyReadiness()
 
-    this._status('Fetching all messages...')
+    this._status('Fetching all conversations...')
 
     const regex = new RegExp('^messages/inbox/.+/message_1.json$')
     const messagesFileNames = _.keys(this.files).filter(fileName => regex.test(fileName))
@@ -58,7 +58,7 @@ export default class ZipHandler {
 
     for (const fileName of messagesFileNames) {
       if (i % 20 === 0) {
-        this._status(`Fetched messages ${i} out of ${totalMessages}.`)
+        this._status(`Fetched conversations ${i} out of ${totalMessages}.`)
       }
 
       const fileContents = await this.files[fileName].async('binarystring')
