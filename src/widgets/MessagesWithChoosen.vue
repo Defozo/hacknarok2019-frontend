@@ -26,6 +26,9 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+  import { GET_PARTICIPANTS } from '../store/getters'
+
   export default {
     name: 'MessagesWithChoosen',
     data() {
@@ -33,6 +36,9 @@
         searchedPhrase: '',
         found: null,
       }
+    },
+    computed: {
+      ...mapGetters({getParticipants: GET_PARTICIPANTS}),
     },
     watch: {
       searchedPhrase(val) {
@@ -48,19 +54,38 @@
         }
 
         console.log('search')
-        // tutaj szukasz
-        const found = {
-          name: 'Imie i nazwisko',
-          messages: 890,
-          number: `#${25}`, // miejsce od najwiecej wiadomości
+        const participants = this.getParticipants
+        const index = participants.map(p => p.name).indexOf(this.searchedPhrase)
+
+        if (index === -1) {
+          this.found = {
+            name: null,
+            messages: null,
+            number: null,
+            sentiment: 0,
+            lastMessageDate: null,
+          }
+        } else {
+          this.found = {
+            name: participants[index].name,
+            messages: participants[index].messages,
+            number: `#${index + 1}`,
+            sentiment: (participants[index].sentiment + 5) * 9,
+            lastMessageDate: new Date(participants[index].date),
+          }
         }
+        // // tutaj szukasz
+        // const found = {
+        //   name: 'Imie i nazwisko',
+        //   messages: 890,
+        //   number: `#${25}`, // miejsce od najwiecej wiadomości
+        // }
         // jak nie znaleziono to  ustaw
         // found: {
         //   name: null,
         //     messages: null,
         //     number: null,
         // },
-        this.found = found
       },
     },
   }

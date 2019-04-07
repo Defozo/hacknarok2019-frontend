@@ -32,8 +32,10 @@
 <script>
   import _ from 'lodash'
   import { mapGetters, mapMutations } from 'vuex'
+  import sentiment from 'sentiment-polish'
 
-  import { SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_STATUS, SET_TOP_PARTICIPANTS } from '@/store/mutations'
+
+  import { SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_STATUS, SET_TOP_PARTICIPANTS, SET_PARTICIPANTS } from '@/store/mutations'
   import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
   import BatchProcessor from '@/modules/BatchProcessor'
@@ -47,7 +49,7 @@
     },
     computed: mapGetters([GET_STATUS]),
     methods: {
-      ...mapMutations([SET_STATUS, SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS]),
+      ...mapMutations([SET_STATUS, SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS, SET_PARTICIPANTS]),
       processTopWords(messages, owner) {
         const processor = new BatchProcessor(messages, owner)
         processor.setup()
@@ -57,12 +59,29 @@
           emojis: _.take(count.emojiArray, 5).map(({ key, value }) => ({ text: key, amount: value })),
         }
       },
-      processTopParticipants(messages) {
-        return _.take(_.reverse(_.sortBy(messages.map(({ name, messages }) => ({
+
+      calculateSentiment(messages){
+        const tokenizedWords = messages.map( message => message.content).join(' ').split(' ');
+        const getAverageSentiment = (texts) => {
+          let scoreSum = 0
+          for (let i = 0; i < texts.length; i++) {
+            scoreSum += sentiment(texts[i]).score
+          }
+
+          return scoreSum / texts.length
+        }
+        return getAverageSentiment(tokenizedWords);
+      },
+
+      processParticipants(messages) {
+        return _.reverse(_.sortBy(messages.map(({ name, messages, date }) => ({
           name,
           messages: messages.length,
-        })), 'messages')), 3)
+          sentiment: this.calculateSentiment(messages),
+          date
+        })), 'messages'))
       },
+
       async handleFileUpload() {
         this.zip = this.$refs.zip.files[0]
 
@@ -87,9 +106,10 @@
         this.setTopWords(words)
         this.setTopEmojis(emojis)
 
-        const topParticipants = this.processTopParticipants(allMessages)
+        const participants = this.processParticipants(allMessages)
 
-        this.setTopParticipants(topParticipants)
+        this.setParticipants(participants)
+        this.setTopParticipants(_.take(participants, 3))
 
         this.$router.push('/dashboard')
       },
