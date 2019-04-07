@@ -1,0 +1,2861 @@
+{
+  "participants": [
+    {
+      "name": "Micha\u00c5\u0082 Dziedzic"
+    },
+    {
+      "name": "Dariusz Czajkowski"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551722083113,
+      "content": "Chill :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551722079383,
+      "content": "wielkie dzieki!!!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551722072554,
+      "content": "hahaha jasne",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551722053227,
+      "content": "Tylko zr\u00c3\u00b3b sobie kopi\u00c4\u0099, bo ten link pewnie wy\u00c5\u009bl\u00c4\u0099 jeszcze kilka razy, bo ju\u00c5\u00bc kilka os\u00c3\u00b3b mnie o to pyta\u00c5\u0082o \u00f0\u009f\u0098\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721991177,
+      "content": "Sprawozdanie masz na doc'u, bo tam jest tabelka do edycji",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721973417,
+      "files": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/files/Zaswiadczenie_424773504939995.pdf",
+          "creation_timestamp": 1551721972
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721911189,
+      "content": "Sprawozdanie: https://docs.google.com/document/d/1q8gOr_ESb4cnhFOCaSLvIbP9eytERvQMsOTt2TcUcG4/edit?usp=sharing",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721893197,
+      "files": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/files/Podanieopraktyki_260607198226315.pdf",
+          "creation_timestamp": 1551721892
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721880124,
+      "content": "byloby super",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721876381,
+      "content": "ooo to podeslij",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721721018,
+      "content": "Jak chcesz, to mam te rzeczy w PDF'ach",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721712694,
+      "content": "Spoczix :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721665405,
+      "content": "dziekiii :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721378297,
+      "content": "tak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721373818,
+      "content": "no mi by sie tez nie chcialo tego czytac",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721361418,
+      "content": "i tyle?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721359597,
+      "content": "Ale u mnie nawet na ni\u00c4\u0085 nie zerkn\u00c4\u0085\u00c5\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721350917,
+      "content": "Ma z niej wynika\u00c4\u0087, \u00c5\u00bce wyrobi\u00c5\u0082e\u00c5\u009b tyle godzin",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721344274,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721332840,
+      "content": "a umowa o dzieli przechodzi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721321747,
+      "content": "oki super",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721226693,
+      "content": "Og\u00c3\u00b3lnie potrzebujesz 4 rzeczy \u00e2\u0080\u0094 sprawozdanie, pismo do dziekana, za\u00c5\u009bwiadczenie i kopia umowy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721179953,
+      "content": "Wi\u00c4\u0099c ju\u00c5\u00bc sam nie jestem pewien, czy najpierw do niego, czy najpierw do dziekana",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721166429,
+      "content": "Ale da\u00c5\u0082 mi sw\u00c3\u00b3j podpis na tym",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721136089,
+      "content": "Ja poszed\u00c5\u0082em do niego najpierw i powiedzia\u00c5\u0082, \u00c5\u00bce pismo musi i\u00c5\u009b\u00c4\u0087 do dziekana najpier",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721129124,
+      "content": "gratuluje xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721113476,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/54049588_2126794824024671_8044224413966532608_n_2126794817358005.png",
+          "creation_timestamp": 1551721111
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721097434,
+      "content": "i cos jeszcze?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721090601,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721086108,
+      "content": "zaczynasz od pisna do dziekana o zaliczenie praktyk po drugim roku",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551721069521,
+      "content": "tak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551721047254,
+      "content": "yo yo ty juz zalatwiles wszystko u gajera w zwiazku z praktykami?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551484248950,
+      "content": "Dobranoc :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484237136,
+      "content": "dobranoc ;)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551484231522,
+      "content": "Ju\u00c5\u00bc chyba powiedzia\u00c5\u0082em wszystko co mia\u00c5\u0082em do powiedzenia.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484206386,
+      "content": "to czemu go bronisz piszac posty na grupie?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484197287,
+      "content": "to jezeli masz do niego ambiwalentny stosunek",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551484179577,
+      "content": "Ale nie przeszkadza mi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484174104,
+      "content": "dobra ide spac :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551484172685,
+      "content": "Nie lubi\u00c4\u0099 go",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484169385,
+      "content": "no i wszystko jasne",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551484155143,
+      "content": "no ale ty go bronisz bo go lubisz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551484021678,
+      "content": "Jedyne co mi przeszkadza\u00c5\u0082o to DDD i brak mo\u00c5\u00bcliwo\u00c5\u009bci spokojnego wgl\u00c4\u0085du do egzaminu.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551483971674,
+      "content": "No to jest jaki\u00c5\u009b argument. Ja si\u00c4\u0099 du\u00c5\u00bco bardziej stresowa\u00c5\u0082em na POCu, ale to kwestia indywidualna.\n\nNie by\u00c5\u0082em u niego na konsultacjach, zda\u00c5\u0082em w 1. terminie, z projektu dosta\u00c5\u0082em ocen\u00c4\u0099 na jak\u00c4\u0085 zas\u00c5\u0082ugiwa\u00c5\u0082em, spotkania z projekt\u00c3\u00b3w odby\u00c5\u0082y si\u00c4\u0099 tyle razy, ile mi odpowiada\u00c5\u0082o, a jego poczucie humoru mnie bawi\u00c5\u0082o. Pewnie dlatego mam z nim dobre wspomnienia i dlatego go broni\u00c4\u0099.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483819348,
+      "content": "a wszystko bo klimek ma takie poczucie humoru?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483809832,
+      "content": "jest dla takich stresujacych sie osob katastrofalne",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483796946,
+      "content": "to powazna sprawa na egzaminie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483785578,
+      "content": "bo nieswiadomosc ile masz jeszcze czasu do konca",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483773247,
+      "content": "ktory jest zajebiscie powazny",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483762245,
+      "content": "i dodaniem im kolejnego czynnika stresowego",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483753980,
+      "content": "ale znam tez osoby ktore sie egzaminami bardzo stresuja",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483742441,
+      "content": "zgodze sie ze czas na egzaminie jest moze nieco przesadzony",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483671349,
+      "content": "to jest egzamin na ktorym maja byc jasno okreslone reguly na starcie i koniec kropka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483650663,
+      "content": "ale to nie jest spotkanie towarzyskie w ktorej popisujemy sie swoim poczuciem humoru",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551483583617,
+      "content": "Jak chcesz to mog\u00c4\u0099 przej\u00c5\u009b\u00c4\u0087 punkt po punkcie z tej listy i powiedzie\u00c4\u0087 dlaczego si\u00c4\u0099 z nimi nie zgadzam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551483540149,
+      "content": "Bo on sobie \u00c5\u009bmieszkuje i my\u00c5\u009bli, \u00c5\u00bce jest zabawny i fajny, a inni go odbieraj\u00c4\u0085 jako to, \u00c5\u00bce ma do nich szacunku itd. Takie ma poczucie humoru. Przecie\u00c5\u00bc z tym czasem na egzaminie na przyk\u00c5\u0082ad... Brzmi to tak, jakby nam zrobi\u00c5\u0082 wielk\u00c4\u0085 krzywd\u00c4\u0099 z egzaminem i jakby\u00c5\u009bmy w og\u00c3\u00b3le nie mieli czasu. Jak dla mnie czasu by\u00c5\u0082o idealnie, a to, \u00c5\u00bce \"nie wie ile czasu\" by\u00c5\u0082o \u00c5\u00bcarcikiem. Da\u00c5\u0082 nam tyle ile potrzebowali\u00c5\u009bmy. Zreszt\u00c4\u0085 przecie\u00c5\u00bc podczas egzaminu si\u00c4\u0099 z nim targowali\u00c5\u009bmy, \u00c5\u00bceby przed\u00c5\u0082u\u00c5\u00bcy\u00c5\u0082 i tak te\u00c5\u00bc zrobi\u00c5\u0082 lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483315542,
+      "content": "poza argumentem ze \u00e2\u0080\u009cbyli gorsi\u00e2\u0080\u009d",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483300428,
+      "content": "nie bardzo czaje czemu go bronisz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483290619,
+      "content": "sa calkowicie uzasadnione",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483280012,
+      "content": "ale losowosc ocen, brak szacunku itp its",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483264633,
+      "content": "jedyna dyskusyjna rzecza jest ddd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483254903,
+      "content": "nie jest wyssany z palca",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483248505,
+      "content": "zaden z tych rzeczy na liscie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551483228516,
+      "content": "czemu?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551483190415,
+      "content": "Rozumiem... Osobi\u00c5\u009bcie wydaje mi si\u00c4\u0099, \u00c5\u00bce z racji tego, \u00c5\u00bce tak ma\u00c5\u0082o os\u00c3\u00b3b do niego chcia\u00c5\u0082o i\u00c5\u009b\u00c4\u0087 mo\u00c5\u00bce go troch\u00c4\u0099 zmieni\u00c4\u0087 i nie potrzebuje \u00c5\u00bcadnego opierdolu z zewn\u00c4\u0085trz. Mo\u00c5\u00bce jestem naiwny i nic to nie zmieni. Nadal jednak uwa\u00c5\u00bcam, \u00c5\u00bce nie zas\u00c5\u0082uguje na to, \u00c5\u00bceby Kluza dosta\u00c5\u0082 tak poka\u00c5\u00ban\u00c4\u0085 list\u00c4\u0099 z naszymi \u00c5\u00bcalami",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482958029,
+      "content": "ale to jest kwestia preferencji raczej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482945553,
+      "content": "a nie klimek ktory nie szanuje ani cb ani twojego czasu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482933557,
+      "content": "ale przynajmniej ma do cb szacunek",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482922332,
+      "content": "i osobiscie wole kogos takiego jak gierdziewicz co jest niekompetentny",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482883255,
+      "content": "i tyle",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482881091,
+      "content": "bo leci w chuja",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482870657,
+      "content": "obsmarowac go tak jak sie tylko da",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482863623,
+      "content": "jest bardzo proste",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482858431,
+      "content": "no ale czemu mamy bronic zly przyklad gorszym przykladem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482841082,
+      "content": "Szczerze, to nie wiem jakie jest najlepsze wyj\u00c5\u009bcie z tej sytuacji",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482795760,
+      "content": "Klimek przynajmniej co\u00c5\u009b wie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482787388,
+      "content": "Pukocz?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482784512,
+      "content": "Maciu\u00c5\u009b?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482757517,
+      "content": "bo jeszcze sie nie spotkalem z tak ewidentnym niedopelnianiem swoich obowiazkow",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482735131,
+      "content": "sa strasznie zasmucajace",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482724369,
+      "content": "i dla mnie jakiekolwiek postu broniace klimka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482714336,
+      "content": "co nie zmienia faktu ze nie trzeba probowac",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482698802,
+      "content": "Nope. Zda\u00c5\u0082em w trzecim i chuj. Ci ludzie s\u00c4\u0085 nie do ruszenia :/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482650289,
+      "content": "no i zrobiles cos z tym?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482637582,
+      "content": "i jeszcze nas zabezpieczy przed jakimis reperkusjami",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482619452,
+      "content": "ktora w moich oczach jest straznikiem jakosci",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482595606,
+      "content": "dac feedback i to w dodatku bezposrednio do osoby",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482594181,
+      "content": "Ja kiedy\u00c5\u009b mia\u00c5\u0082em egzamin, z kt\u00c3\u00b3rego dosta\u00c5\u0082em ocen\u00c4\u0099 23h przed ostatnim terminem bez mo\u00c5\u00bcliwo\u00c5\u009bci wgl\u00c4\u0085du w og\u00c3\u00b3le",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482580377,
+      "content": "a tutaj jest unikatowa szansa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482570140,
+      "content": "ale nie wypelnialem zadnej chyba z 2 semestry",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482559755,
+      "content": "ankiety niby sa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482548235,
+      "content": "no ale nie masz jak tego zrobic tak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482533211,
+      "content": "I dajmy w takim razie opini\u00c4\u0099 ka\u00c5\u00bcdemu, a nie tylko Klimkowi, kt\u00c3\u00b3ry na ich tle moim zdaniem taki z\u00c5\u0082y wcale nie jest",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482521498,
+      "content": "no ale tak byc nie powinno",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482513892,
+      "content": "ze robi konsultacje na 45 minut przed drugim terminem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482508169,
+      "content": "Ka\u00c5\u00bcdy prowadz\u00c4\u0085cy si\u00c4\u0099 czuje bezkarny, bo w sumie taki jest xd Oni tam s\u00c4\u0085 od dawien dawna i s\u00c4\u0085 raczej nie do ruszenia.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482498072,
+      "content": "to samo z mrowka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482481236,
+      "content": "i to sie tyczy wszystkich",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482468315,
+      "content": "i sie czuje calkowicie bezkarny",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482459124,
+      "content": "odpierdala takie dziadostwo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482448121,
+      "content": "ze klimek od dekady",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482438091,
+      "content": "taka obojetnosc prowadzi wlasnie do tego",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482437070,
+      "content": "true",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482422721,
+      "content": "nie dawanie feedbacku na pewno nic nie da",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482403114,
+      "content": "bo klimkowi bedzie przykro?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551482402927,
+      "content": "Czy my\u00c5\u009blisz, \u00c5\u00bce to cokolwiek da?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482395873,
+      "content": "to czemu mamy sie wstrzymywac?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482386604,
+      "content": "a teraz, gdy taka szansa sie nadarza",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482372467,
+      "content": "dac feedback na temat pukocza czy gierdziewicza",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482357195,
+      "content": "niespecjalnie mielismy okazje",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1551482350740,
+      "content": "czemu sie nie zgadzasz?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1551481404034,
+      "content": "Mia\u00c5\u0082em odpisa\u00c4\u0087 pod komentarzem, ale nie chc\u00c4\u0099 wzburza\u00c4\u0087 dym\u00c3\u00b3w. Tre\u00c5\u009b\u00c4\u0087:\n\n\n\nPrawd\u00c4\u0085 jest, \u00c5\u00bce nie by\u00c5\u0082em zmuszony i\u00c5\u009b\u00c4\u0087 do niego na konsultacje, wi\u00c4\u0099c mog\u00c4\u0099 nie mie\u00c4\u0087 pe\u00c5\u0082nego obrazu. Z mojej perspektywy by\u00c5\u0082... spoko.\n\n\u00c2\u00abargument \"nie jed\u00c5\u00bamy po nimi, bo byli gorsi\" [...] zach\u00c4\u0099ca do \"wyr\u00c3\u00b3wnywania do do\u00c5\u0082u\"\u00c2\u00bb - Nie zgodz\u00c4\u0099 si\u00c4\u0099 z tym do ko\u00c5\u0084ca. Jacy s\u00c4\u0085 prowadz\u00c4\u0085cy ka\u00c5\u00bcdy widzi. Mieli\u00c5\u009bmy wielu chujowych i nie mieli\u00c5\u009bmy do nich a\u00c5\u00bc tylu w\u00c4\u0085t\u00c3\u00b3w co do Klimka. Czy wylewanie \u00c5\u00bcal\u00c3\u00b3w na nim ma jaki\u00c5\u009b sens? Dla mnie nie bardzo. Moim zdaniem eliminacja z tego kierunku \"nieszkodliwego Maciusia\" czy Pukocza ma zdecydowanie wi\u00c4\u0099kszy sens ni\u00c5\u00bc Klimka. A z nimi nic nie zrobili\u00c5\u009bmy. Czy to nie jest \"wyr\u00c3\u00b3wnywanie do do\u00c5\u0082u\"?\n\nJednak\u00c5\u00bce i tak wydaje mi si\u00c4\u0099, \u00c5\u00bce czego by\u00c5\u009bmy nie zrobili, nie wp\u00c5\u0082ynie to na ten kierunek. Po\u00c5\u0082\u00c4\u0085czenie w WIETem na pewno co\u00c5\u009b zmieni. Pytanie, czy na lepsze.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1549461075711,
+      "content": "nie xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1549460844723,
+      "content": "Masz mo\u00c5\u00bce kalkulator?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1548809173457,
+      "content": "W\u00c5\u0082\u00c4\u0085czy\u00c5\u0082em sobie jaki\u00c5\u009b tam tournament z pi\u00c5\u0082karzykami i strza\u00c5\u0082 na bramk\u00c4\u0099 to by\u00c5\u0082a jedna klatka xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546967918262,
+      "content": "https://drive.google.com/open?id=1SaILKrCtbKwt6FqX2hjC7z5vG-SWGE2p",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546104744876,
+      "content": "Eh, no spoko",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1546104727622,
+      "content": "za pozno :/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546104715909,
+      "content": "\u00f0\u009f\u0099\u0088",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546104709022,
+      "content": "Bo jak tak to mo\u00c5\u00bcesz mi wzi\u00c4\u0085\u00c4\u0087",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546104691663,
+      "content": "Jakie\u00c5\u009b spoko?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1546104630568,
+      "content": "hot dogi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1546104603191,
+      "content": "Znale\u00c5\u00bali\u00c5\u009bcie jakie\u00c5\u009b jedzenie?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1545307744119,
+      "content": "O lol. Jeszcze te opisy rozwi\u00c4\u0085zania \u00f0\u009f\u0098\u0085\u00f0\u009f\u0098\u00ae\n\nPomo\u00c5\u00bcemy Ci? Nie. Chuj Ci w dup\u00c4\u0099.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1545295828280,
+      "content": "microsoft znowu gora :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1545295819802,
+      "content": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8653",
+      "share": {
+        "link": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8653"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1545286354289,
+      "content": "ale cel jest taki zeby to zdac absolutnie minimalnym wysilkiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1545286341161,
+      "content": "cos tam sie uczylem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1545286328844,
+      "content": "juz spalem \u00f0\u009f\u0098\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1545257435292,
+      "content": "Uczysz si\u00c4\u0099 na PWiR, czy ju\u00c5\u00bc naumiane?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544642229392,
+      "content": "\u00f0\u009f\u0099\u0083",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544642127453,
+      "content": "jest jednak w 121",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544393010971,
+      "content": "to ratuj sprawe!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544392980342,
+      "content": "Pisz\u00c4\u0099 ju\u00c5\u00bc",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392933524,
+      "content": "bo mam skrypcik w node gdzies pod reka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392923374,
+      "content": "albo ja w sumie moge",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392809859,
+      "content": "ja nie chce dostawac ofert swiatecznych XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392792843,
+      "content": "ja cie blagam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392789459,
+      "content": "to wez napisz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544392712769,
+      "content": "list, shuffle, zip, smtplib. Sze\u00c5\u009b\u00c4\u0087 linijek \u00f0\u009f\u0098\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392600145,
+      "content": "jest apka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544392591499,
+      "content": "no o tym m\u00c3\u00b3wi\u00c4\u0099 w\u00c5\u0082a\u00c5\u009bnie xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392586538,
+      "content": "to nie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392584475,
+      "content": "zeby ci maila wyslal",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392580159,
+      "content": "nawet mozna byloby napisac",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544392558594,
+      "content": "xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392555043,
+      "content": "malo to ja spamu na maila dostaje",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1544392549130,
+      "content": "a idz pan XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1544392506565,
+      "content": "Skrypt w Pythonie by zaj\u00c4\u0085\u00c5\u0082 jakie\u00c5\u009b 3 linijki, ale po co, skoro mo\u00c5\u00bcna appk\u00c4\u0099 xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1543047352432,
+      "content": "Check out Taxify via http://taxify.eu",
+      "share": {
+        "link": "https://taxify.eu/"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542898052393,
+      "content": "bo dalej juz jest bus pas",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542898045978,
+      "content": "\u00f0\u009f\u0099\u008c",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542898037227,
+      "content": "ale to byle sie wydostac z alei kijowskiej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542898036454,
+      "content": "ikr",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542898027834,
+      "content": "ojojojoj",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897967748,
+      "content": "Bo ma razie wygl\u00c4\u0085da to tak:",
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/46636042_2188231351440666_9118817448944992256_n_2188231348107333.jpg",
+          "creation_timestamp": 1542897967
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897921574,
+      "content": "Zobaczymy co powie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897916003,
+      "content": "kk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897907792,
+      "content": "i wtedy to juz easy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897904282,
+      "content": "mozemy sie jeszcze zgrac z damianem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897896692,
+      "content": "a co do planu zimniokowego to mysle ze jakos to bedzie :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897867450,
+      "content": "wariat",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897864986,
+      "content": "podobno sie ostatnio cos plul ze nie chodzimy na wyklady XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897796193,
+      "content": "Haha, ok. Zobaczymy, bo z nim to s\u00c4\u0085 spore jaja",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897717508,
+      "content": "wiec moze ten tez sie zlituje",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897712272,
+      "content": "i ich przyjela",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897706345,
+      "content": "dzisiaj ziomy przyszly na aspekty spoznieni godzine XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897686681,
+      "content": "nie bardzo :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897682242,
+      "content": "Najwy\u00c5\u00bcej zostan\u00c4\u0099 na nast\u00c4\u0099pn\u00c4\u0085 grup\u00c4\u0099 p\u00c3\u00b3\u00c5\u0082 godziny jak mi pozwoli",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897647469,
+      "content": "?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897645445,
+      "content": "A wiesz jaki jes plan zimniokowy na dzisiaj",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897630329,
+      "content": "ale jak nie sprobujesz to sie nie dowiesz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897619552,
+      "content": "wiec moze sie ciskac",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542897609178,
+      "content": "on jest chyba troche zjebany xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897586396,
+      "content": "Takiego korka to jeszcze tu nie widzia\u00c5\u0082em nigdy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542897560583,
+      "content": "Wpu\u00c5\u009bci mnie, jak b\u00c4\u0099d\u00c4\u0099 30 minut sp\u00c3\u00b3\u00c5\u00baniony? \u00f0\u009f\u0098\u00a8",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542287074859,
+      "content": "Hahahahah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542284516920,
+      "content": "https://pl.wikipedia.org/wiki/Peer-to-peer#Skype",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542284510028,
+      "content": "Skype idzie po UDP xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542135142050,
+      "content": "zapomnialem wylogowac dziada",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1542135118177,
+      "content": "ooo wyloguj mnie plz :p",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1542132734590,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/46090948_1844685828962400_3530596823938891776_n_1844685822295734.jpg",
+          "creation_timestamp": 1542132733
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1539429633350,
+      "content": "ok ok to jak wroce do domu to ogarne :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1539429617129,
+      "content": "Na slacku masz wszystko",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1539429607183,
+      "content": "Tak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1539429302500,
+      "content": "powinienem?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1539429298939,
+      "content": "ojej, jeszcze nie?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1539429058490,
+      "content": "Zapisa\u00c5\u0082e\u00c5\u009b si\u00c4\u0099 na darmowe PKP na HackYeah?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1533715241521,
+      "content": "Hej, wracam dopiero w poniedzia\u00c5\u0082ek.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708636623,
+      "content": "Od 19 jakos",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708632897,
+      "content": "Czuj si\u00c4\u0099 zaproszony!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708627207,
+      "content": "B\u00c4\u0099d\u00c4\u0099 ja, Ignac, Grzegorz i jacy\u00c5\u009b sta\u00c5\u00bcy\u00c5\u009bci od nas",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708603224,
+      "content": "Bo jak tak to jutro na miasteczku spotykamy si\u00c4\u0099 na browarze",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708581509,
+      "content": "Powiedz czy jeste\u00c5\u009b ju\u00c5\u00bc w Krakowie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1533708569146,
+      "content": "Czo\u00c5\u0082em mistrzu :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956690959,
+      "content": "bramkarz obronil",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529956666229,
+      "content": "A Ronaldo nie strzeli\u00c5\u0082 karnego?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956409196,
+      "content": "wyjebac ronaldo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956406019,
+      "content": "kuzwa iran naprzod",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956401613,
+      "content": "wczesniej nie zrobil varu iranowi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956395061,
+      "content": "ten karny to z dupy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956375279,
+      "content": "ronaldo trzeba bylo wsadzic czerwona",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956365222,
+      "content": "co tu sie odpierdala XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956290539,
+      "content": "mnie to na tym mundialu juz nic nie zdziwi",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Dariusz Czajkowski"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529956288257,
+      "content": "Zwalniaj\u00c4\u0085 ludzi z egzaminu co maj\u00c4\u0085 ledwo 4.5 a nie zwalniaj\u00c4\u0085 Patrycji kt\u00c3\u00b3ra ma 5.0 z obydwu kolos\u00c3\u00b3w i zaledwie kilka plus\u00c3\u00b3w \"bo nie by\u00c5\u0082a aktywna\". Na auto tak jak usi\u00c4\u0085dziesz tak\u00c4\u0085 masz ocen\u00c4\u0099. Serio, nic mnie nie zdziwi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529956206347,
+      "content": "Na tych studiach nic mnie ju\u00c5\u00bc chyba nie zdziwi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529956197867,
+      "content": "no ale bez kitu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529956106169,
+      "content": "Sam nie wiem. To jest Ku\u00c5\u0082ak. Z nim nic nie wiadomo tak na prawd\u00c4\u0099",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955852525,
+      "content": "przeciez nam nie odwola egzaminu bo nie mamy kartek nie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955837052,
+      "content": "nie no ale serio",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955447541,
+      "content": "\u00f0\u009f\u0098\u008f",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955445435,
+      "content": "Jeste\u00c5\u009b trudny do rozmowy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955413028,
+      "content": "no i co w ten sposob osiagniemy? :P",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955169169,
+      "content": "xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955168068,
+      "content": "W\u00c5\u0082a\u00c5\u009bnie chodzi\u00c5\u0082o mi o to, \u00c5\u00bceby\u00c5\u009bmy nie brali, to wtedy mo\u00c5\u00bce nie b\u00c4\u0099dziemy pisa\u00c4\u0087",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955135473,
+      "content": "to pisz xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955133246,
+      "content": "jak ci sie chce",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955124979,
+      "content": "Ale w sumie to w najgorszym przypadku nie b\u00c4\u0099dziemy pisa\u00c4\u0087 xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529955111496,
+      "content": "Zastanawia\u00c5\u0082em si\u00c4\u0099 bardziej czy by nie napisa\u00c4\u0087 na Mainie, \u00c5\u00bce trzeba wzi\u00c4\u0085\u00c4\u0087",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955062727,
+      "content": "mozna wziac na wszelki wypadek ;)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1529955055959,
+      "content": "ojej, nie wiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1529946666167,
+      "content": "Pami\u00c4\u0099tasz mo\u00c5\u00bce, czy Ku\u00c5\u0082ak m\u00c3\u00b3wi\u00c5\u0082, \u00c5\u00bceby na egzamin przynie\u00c5\u009b\u00c4\u0087 swoje kartki? Bo obi\u00c5\u0082o mi si\u00c4\u0099 co\u00c5\u009b takiego o uszy, ale nie jestem pewien",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528807574362,
+      "content": "XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528807482710,
+      "content": "Jprdl",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528661071535,
+      "content": "No ja my\u00c5\u009bla\u00c5\u0082em, \u00c5\u00bce chcesz, \u00c5\u00bcebym Ci kod wyt\u00c5\u0082umaczy\u00c5\u0082 \u00f0\u009f\u0098\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528661051572,
+      "content": "no i nie potrzeba bylo hangoutsa :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528661045202,
+      "content": "ahaaaa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528660922217,
+      "content": "To jest tak, \u00c5\u00bce mask\u00c4\u0099 dostajesz dla 10-ciu cyfr (10 bit\u00c3\u00b3w). Najm\u00c5\u0082odszy bit odpowiada \u00e2\u0080\u0094 0, najstarszy \u00e2\u0080\u0094 9.\nJak w stringu buf natrafisz na cyfr\u00c4\u0099, to znajdujesz j\u00c4\u0085 w masce. Jak jest 0, to nic nie robisz, jak 1, to wykonujesz operacj\u00c4\u0099 0-3 (w zale\u00c5\u00bcno\u00c5\u009bci jak\u00c4\u0085 poda\u00c5\u0082 u\u00c5\u00bcytkownik)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660814468,
+      "content": "i wykonujesz na nim operacje w zaleznosci od numeru",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660804505,
+      "content": "dostajesz jeden bit maski",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660798978,
+      "content": "bo ja myslalem tak, ze dla kazdej pozycji w srtringu buf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660782976,
+      "content": "albo mi napisz po prostu jak dziala maska w encode",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528660773258,
+      "content": "Ja jutro mam ca\u00c5\u0082y dzie\u00c5\u0084 wolny",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528660756418,
+      "content": "ok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660247555,
+      "content": "albo powiesz mi we wtorek",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660242000,
+      "content": "ale moze jutro? :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528660234588,
+      "content": "na razie nie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528660189621,
+      "content": "hangouts?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528659201612,
+      "content": "i nie jestem pewien w jaki sposob dziala maska bitowa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528659192036,
+      "content": "bo ogarniamy wlasnie encode",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528659181047,
+      "content": "dareeek",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528652420886,
+      "content": "dzieki!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528652418002,
+      "content": "ale super!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528652416279,
+      "content": "woooo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528651979935,
+      "content": "Masz doda\u00c4\u0087 do prywatnego repo \"we_are_assembler_guru\" u\u00c5\u00bcytkownika, @BFHDD jako collaboratora. A w Pull Request'cie doda\u00c5\u0082em nasze programy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650697177,
+      "content": "Ustawienia repo, collaborators, BFHDD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650681272,
+      "content": "gdzie mam to wrzucic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650680224,
+      "content": "xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650675592,
+      "content": "ja chyba nie umiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650641600,
+      "content": "tego",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650638331,
+      "content": "https://github.com/BFHDD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650630451,
+      "content": "moze ma prywatne",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650621015,
+      "content": "aaa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650617696,
+      "content": "To jest jego handle na GitHubie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650615952,
+      "content": "znalazlem uzytkownika",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650612471,
+      "content": "no no",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650610265,
+      "content": "ale jakiego bfhdd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650607383,
+      "content": "znam",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650601449,
+      "content": "Mo\u00c5\u00bcesz nie zna\u00c4\u0087 w sumie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650589983,
+      "content": "To jest Mateusz. Z nim robili\u00c5\u009bmy te programy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650572662,
+      "content": "xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1528650572130,
+      "content": "jakiego bfhdd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1528650475349,
+      "content": "Dodaj do repo @BFHDD. Doda\u00c5\u0082em nasze programy w PR",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1527255926806,
+      "content": "Hej, bior\u00c4\u0099 udzia\u00c5\u0082 w konkursie, i potrzebuj\u00c4\u0099 \u00c5\u0082apk\u00c4\u0099 pod tym issue na GitHubie. Pomo\u00c5\u00bcesz? https://github.com/laravel/blog-contest-may-mayhem/issues/4 \u00f0\u009f\u0099\u0082\n\nP.S. Nie wysy\u00c5\u0082aj nikomu, bo jest zakaz dzielenia si\u00c4\u0099 zg\u00c5\u0082oszeniem w mediach spo\u00c5\u0082eczno\u00c5\u009bciowych i mocno to kontroluj\u00c4\u0085. Wi\u00c4\u0099c jedna \u00c5\u0082apka na kilka godzin wystarczy spokojnie \u00f0\u009f\u0098\u0089  Z g\u00c3\u00b3ry dzi\u00c4\u0099kuj\u00c4\u0099",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1525685818609,
+      "content": "\u00f0\u009f\u0091\u008c",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1525685802673,
+      "content": "Ogarn\u00c4\u0099 wieczorem ok",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1525678472112,
+      "content": "Sprawdzisz Slacka?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1525431948121,
+      "content": "Chyba oko\u00c5\u0082o 17. Jeszcze nie wiem jak Ela b\u00c4\u0099dzie mog\u00c5\u0082a",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1525431800166,
+      "content": "o ktorej jedziesz do damiana? :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524845800667,
+      "content": "done :)",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Micha\u00c5\u0082 Dziedzic"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524845744155,
+      "content": "michal.dziedzic22@gmail.com",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524845735260,
+      "content": "pewnie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524844952187,
+      "content": "Dasz swojego e-maila? Dodam Ci\u00c4\u0099 na Slacku :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524642801849,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642793861,
+      "content": "Jadeee",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524642782323,
+      "content": "Xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524642782103,
+      "content": "Zd\u00c4\u0085\u00c5\u00bcymy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524642781884,
+      "content": "To chod\u00c5\u00ba",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642726127,
+      "content": "1.5 godzin siedzisz i wymy\u00c5\u009blasz co si\u00c4\u0099 wypisze xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642711413,
+      "content": "A test to jest masakra",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642622611,
+      "content": "30 min przynajmniej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524642610870,
+      "content": "A za ile by\u00c5\u009b by\u00c5\u0082?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642602601,
+      "content": "Wi\u00c4\u0099c chyba nie ma sensu :/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524642596703,
+      "content": "Ej ja dopiero teraz wyszedlem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524640635338,
+      "content": "\u00f0\u009f\u0099\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524640622331,
+      "content": "Jak tam?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605208556,
+      "content": "\u00e2\u0098\u00ba",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605208060,
+      "content": "to bede bez problemu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605202215,
+      "content": "bo mysle, ze na 10",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605193380,
+      "content": "bardzo chetnie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605191293,
+      "content": "ooo, super!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605180716,
+      "content": "Mog\u00c4\u0099 zacz\u00c4\u0085\u00c4\u0087 sam i Ty do\u00c5\u0082\u00c4\u0085czysz p\u00c3\u00b3\u00c5\u00baniej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605175401,
+      "content": "to bedziemy w kontakcie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605167695,
+      "content": "yup",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605161087,
+      "content": "ty tak czy siak siedzisz na uczelni nie :P",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605159695,
+      "content": "ok :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605149974,
+      "content": "wiec zobaczyym",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605146052,
+      "content": "z ruczaju w 30 min dojade",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605139075,
+      "content": "mozemy byc w kontakcie jakos",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605124792,
+      "content": "no wiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605118963,
+      "content": "No to nie wiem. Chyba nie zd\u00c4\u0085\u00c5\u00bcysz, bo jeszcze dojazd, co nie?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605104238,
+      "content": "Grzegorz ma w\u00c5\u0082a\u00c5\u009bnie zaraz po sieciach, i zmywa si\u00c4\u0099 chwil\u00c4\u0099 wcze\u00c5\u009bniej.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605067520,
+      "content": "a pozniej ze moze potrwac okolo 1.5 godziny xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605057981,
+      "content": "bo napisane jest ze rozmowa ma byc krotka",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605050891,
+      "content": "mail jest nieco dwuznaczny",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605033168,
+      "content": "ze mam jutro rozmowe w nokii o 8 rano",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605025094,
+      "content": "tylko jest sprawa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524605024705,
+      "content": ":D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1524605019742,
+      "content": "bardzo chetnie stary!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1524604660289,
+      "content": "Nie chcia\u00c5\u0082by\u00c5\u009b jutro o 9.30 zrobi\u00c4\u0087 sobie pakietu dodatkowego z sieci? Bo mi si\u00c4\u0099 b\u00c4\u0099dzie nudzi\u00c4\u0087, bo musz\u00c4\u0099 czeka\u00c4\u0087 do 11, to bym sobie zrobi\u00c5\u0082. A nie mam z kim \u00f0\u009f\u0098\u0095",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1522258319563,
+      "content": "A, spoko spoko \u00f0\u009f\u0091\u008d",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258315651,
+      "content": "I tam*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258309861,
+      "content": "Inl tam sporo placilem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258302705,
+      "content": "Mieli\u00c5\u009bmy drug\u00c4\u0085 imprez\u00c4\u0099 z ela",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258297698,
+      "content": "Bo nast\u00c4\u0099pnego dnia",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258291889,
+      "content": "Pojeba\u00c5\u0082o mi sie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258288342,
+      "content": "Sorki xf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1522258286633,
+      "content": "Oj ups",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1522258170897,
+      "content": "Bo nie widzia\u00c5\u0082em na konwersacji, \u00c5\u00bceby\u00c5\u009b pisa\u00c5\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1522258131379,
+      "content": "Czy ja Ci co\u00c5\u009b wisz\u00c4\u0099 za urodziny Turlaja?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219881371,
+      "content": "hahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219874418,
+      "content": "Test wielokrotnego wyboru xD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219864404,
+      "content": "\"Zaznacz poprawn\u00c4\u0085 odpowied\u00c5\u00ba\"",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219849344,
+      "content": "Napisz\u00c4\u0099 wszystkie cztery i niech sobie wybierze",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219814289,
+      "content": "Kurde kurde :/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219749010,
+      "content": ":/",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219748239,
+      "content": "Moja mama pracowa\u00c5\u0082a w szpitalu i ma pe\u00c5\u0082no znajomych lekarzy, ale nie b\u00c4\u0099dzie ich prosi\u00c4\u0087...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219738597,
+      "content": "I nie wiem czy warte \u00c5\u009bwieczki",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219730541,
+      "content": "Bo taka opcja to rzeczywi\u00c5\u009bcie przypal",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219713158,
+      "content": "A nie masz jakiego\u00c5\u009b znajomego lekarza? \u00f0\u009f\u0098\u0086",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219699804,
+      "content": "O to by siad\u00c5\u0082o najlepiej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219612687,
+      "content": "Ale to jest chyba zbyt nielegalne jak na moje nerwy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219598513,
+      "content": "Piecz\u00c4\u0085tka istniej\u00c4\u0085cego lekarza i wgl xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219587312,
+      "content": "Taki ziomek mi napisa\u00c5\u0082, \u00c5\u00bce mi wystawi zwonienie za 20z\u00c5\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219572838,
+      "content": "Zwolnienie lekarskie by\u00c5\u0082oby najlepsz\u00c4\u0085 opcj\u00c4\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219552264,
+      "content": "No troch\u00c4\u0099 tak, bo co ma piernik",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219543350,
+      "content": "Aczkolwiek dosy\u00c4\u0087 ci\u00c4\u0099\u00c5\u00bcko",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219541144,
+      "content": "Hmm, no ok.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219537658,
+      "content": "Nooo, wi\u00c4\u0099c 4 chyba",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219483453,
+      "content": "Ale w tej zabawie nie bior\u00c4\u0099 udzia\u00c5\u0082u i m\u00c3\u00b3g\u00c5\u0082by to sprawdzi\u00c4\u0087. W\u00c4\u0085tpi\u00c4\u0099, no ale...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219456319,
+      "content": "O tej samej godzinie jest 3. termin z architektur",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219430541,
+      "content": "'jak to? Jaki przedmiot jest wa\u00c5\u00bcniejszy ni\u00c5\u00bc dyskretna?'",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219412811,
+      "content": "Plus podchodzi pod wy\u00c5\u00bcej wymienione",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219387824,
+      "content": "A 3 jest szokuj\u00c4\u0085co niewiarygodna",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219374405,
+      "content": "\u00c5\u00bbe 'jak to? Co jest niby wa\u00c5\u00bcniejsze ni\u00c5\u00bc moja matematyka dyskretna?'",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Dariusz Czajkowski"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219356905,
+      "content": "1 i 2 mog\u00c4\u0085 go chyba rozjuszyc",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219340806,
+      "content": "4?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219332698,
+      "content": "Kt\u00c3\u00b3ra wym\u00c3\u00b3wka? xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219328838,
+      "content": "Bo ci arty\u00c5\u009bci to moga korzysta\u00c4\u0087 ze skrzynki pocztowej raz w tygodniu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219310608,
+      "content": "Wi\u00c4\u0099c pisz jak najszybciej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219300625,
+      "content": "Tylko troch\u00c4\u0099 pozno, bo jedziemy w poniedzia\u00c5\u0082ek nie ;p",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518219286688,
+      "content": "Ooo dobre dobre",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518219091656,
+      "content": "Nie podj\u00c4\u0085\u00c5\u0082em walki jeszcze. Ale wymy\u00c5\u009bli\u00c5\u0082em, \u00c5\u00bce napisz\u00c4\u0099 do Bieleckiego, \u00c5\u00bce nie mog\u00c4\u0099 przyj\u00c5\u009b\u00c4\u0087 na drugi termin, bo (...tutaj jeszcze musz\u00c4\u0099 wymy\u00c5\u009bli\u00c4\u0087 wym\u00c3\u00b3wk\u00c4\u0099...) i czy istnieje mo\u00c5\u00bcliwo\u00c5\u009b\u00c4\u0087, \u00c5\u00bce gdyby mi si\u00c4\u0099 nie uda\u00c5\u0082o w trzecim, to czy zrobi\u00c5\u0082by dla mnie dodatkowy termin. Jak nie pisemny, to chocia\u00c5\u00bc ustny.\n\nWym\u00c3\u00b3wki mog\u00c4\u0085 by\u00c4\u0087:\n- mam zaplanowany wyjazd\n- mam wyjazd s\u00c5\u0082u\u00c5\u00bcbowy z Airly i nie jestem w stanie nic z nim zrobi\u00c4\u0087\n- jestem na drugim roku i \"pokrywaj\u00c4\u0085 si\u00c4\u0099\" egzaminy, albo s\u00c4\u0085 bardzo blisko siebie\n- mam trudn\u00c4\u0085 sytuacj\u00c4\u0099 rodzinn\u00c4\u0085, bo dziadek jest w szpitalu (co jest w sumie zgodne z prawd\u00c4\u0085)\n\nCo\u00c5\u009b na zasadzie \"prosz\u00c4\u0099 o wyrozumia\u00c5\u0082o\u00c5\u009b\u00c4\u0087 bla bla\" itd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518218866341,
+      "content": "Wywalczy\u00c5\u0082es co\u00c5\u009b z t\u00c4\u0085 przebrzydla uczelnia?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518218852244,
+      "content": "Yo yo, jak tam? :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120408265,
+      "content": "I Ci nie pomo\u00c5\u00bce",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120404832,
+      "content": "Pewnie jeszcze bd upierdliwa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120397450,
+      "content": "No to tym bardziej",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518120361124,
+      "content": "Ona i tak jest jaka\u00c5\u009b niemi\u00c5\u0082a",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120301571,
+      "content": "Szczegolnie \u00c5\u00bce to staro\u00c5\u009bcina ma problem przez cb troche",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120286476,
+      "content": "Ja bym tak totalnie nie robil",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120277782,
+      "content": "Ale my\u00c5\u009bl\u00c4\u0099 \u00c5\u00bce du\u00c5\u00bco \u00c5\u0082atwiej b\u00c4\u0099dzie ci ogarnac jaki\u00c5\u009b dodatkowy termin",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518120274219,
+      "content": "kurwa, no sam nie wiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120260925,
+      "content": "To ju\u00c5\u00bc r\u00c3\u00b3b jak chcesz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518120223167,
+      "content": "No ale ten termin nie do\u00c5\u009b\u00c4\u0087, \u00c5\u00bce nie jest w dniu w kt\u00c3\u00b3rym odbywaj\u00c4\u0085 si\u00c4\u0099 studia stacjonarne to jeszcze jest kr\u00c3\u00b3cej jak 48 godzin po wcze\u00c5\u009bniejszym terminie... To jest podw\u00c3\u00b3jne z\u00c5\u0082amanie regulaminu. A im to wisi wtf?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120066581,
+      "content": "To oni wymysla co\u00c5\u009b takiego \u00c5\u00bce to ty b\u00c4\u0099dziesz mia\u00c5\u0082 problem tak czy siak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518120050406,
+      "content": "Bo jak ty si\u00c4\u0099 tak doczepisz",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119944056,
+      "content": "Z jobczykiem gada\u00c4\u0087 czy cod",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119936485,
+      "content": "Ju\u00c5\u00bc pr\u00c4\u0099dzej pr\u00c3\u00b3bowa\u00c5\u0082bym indywidualnie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119927700,
+      "content": "Meh, tak na z\u00c5\u0082o\u00c5\u009b\u00c4\u0087 to ci\u00c4\u0099\u00c5\u00bcko co\u00c5\u009b zalatwic",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119873158,
+      "content": "Zastanawiam si\u00c4\u0099 teraz, czy by nie wzburzy\u00c4\u0087 staro\u00c5\u009bciny, \u00c5\u00bce 3. termin jest nieregulaminowy. Bo nie ma wynik\u00c3\u00b3w na 48 godzin przed nast\u00c4\u0099pnym terminem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119807053,
+      "content": "Bo czemu ma ca\u00c5\u0082y kierunek cierpie\u00c4\u0087 za g\u00c5\u0082upot\u00c4\u0099 xdxd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119793381,
+      "content": "Bielecki te\u00c5\u00bc da\u00c5\u0082 dupy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119788076,
+      "content": "G\u00c5\u0082upi anonim",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119785056,
+      "content": ":(((",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119703380,
+      "content": "No a w sobot\u00c4\u0099 o 10.00",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119685992,
+      "content": "To si\u00c4\u0099 we Lwowie raczej nie nauczysz :(",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119677585,
+      "content": "Bo jakby\u00c5\u009b ola\u00c5\u0082 drugi termin",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119653818,
+      "content": "Nie wiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119634902,
+      "content": "Co robisz z tym?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119575768,
+      "content": "Pojeba\u00c5\u0082o ich na tej uczelni...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119573994,
+      "content": "Tak",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119568923,
+      "content": "Sobota?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119556201,
+      "content": "Czwartek i sobota",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119552985,
+      "content": "I mo\u00c5\u00bcesz jecha\u00c4\u0087 do Lwowa?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119545038,
+      "content": "Ale to masz jeszcze dwa terminy?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119532684,
+      "content": "Widz\u00c4\u0099, ju\u00c5\u00bc jestem w domu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518119527181,
+      "content": "O nie :(",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119523118,
+      "content": "<obrazek prezentuje soczyste 2.0>",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119493402,
+      "content": "No i chujnia",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518119482128,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/27994308_1753189584725564_1358422760_n_1753189584725564.jpg",
+          "creation_timestamp": 1518119481
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518111399930,
+      "content": "Na pewno! \u00f0\u009f\u0099\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111197540,
+      "content": "Mam nadziej\u00c4\u0099, \u00c5\u00bce pyknie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111190584,
+      "content": "Dzi\u00c4\u0099ki dzi\u00c4\u0099ki",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518111182987,
+      "content": "Trzymam kciuki mimo wszystko! :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518111116477,
+      "content": "Takich si\u00c4\u0099 dyscyplinarnie powinno wypierdalac",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111087257,
+      "content": "gg",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518111085018,
+      "content": "Spicy XD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111084662,
+      "content": "No i Bielecki zmieni\u00c5\u0082 wszystkie pytnia",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111071465,
+      "content": "*roku",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111068866,
+      "content": "Og\u00c3\u00b3lnie to jaki\u00c5\u009b geniusz poszed\u00c5\u0082 do Bieleckiego zapyta\u00c4\u0087 o zadania z tamtego rouku",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518111048354,
+      "content": "haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518111004595,
+      "content": "W \u00c5\u00bcyciu tych zdj\u00c4\u0099\u00c4\u0087 nie zobacze",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110993375,
+      "content": "Nie mam pakietu xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110992939,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/27901236_1752641134780409_1000131051_o_1753046874739835.jpg",
+          "creation_timestamp": 1518110992
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110990937,
+      "content": "Ale to nic co nie \u00f0\u009f\u0098\u0085",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110986106,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/27901552_1752640824780440_1386370467_o_1753046774739845.jpg",
+          "creation_timestamp": 1518110985
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110979519,
+      "photos": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/photos/27946071_1752640654780457_697615339_o_1753046758073180.jpg",
+          "creation_timestamp": 1518110978
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110973155,
+      "content": "Wiedzia\u00c5\u0082em*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110964272,
+      "content": "O to nie wiem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110962594,
+      "content": "Xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110952821,
+      "content": "Wiesz, \u00c5\u00bce da\u00c5\u0082 zupe\u00c5\u0082nie inny, co nie?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110944781,
+      "content": "haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110941850,
+      "content": "Zdasz na pewno!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110939182,
+      "content": "Eee to ju\u00c5\u00bc s\u00c4\u0085 glupotki",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110932194,
+      "content": "Dziena :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110927984,
+      "content": "Gratsy stary",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110927569,
+      "content": "dyskretna ma by\u00c4\u0087 dzisiaj lub jutro",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110921827,
+      "content": "Wyskillowane \u00f0\u009f\u0098\u0081",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110911682,
+      "content": "3.0",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110898936,
+      "content": "A fizyka?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110867013,
+      "content": "nie, nie pyta\u00c5\u0082em",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110860660,
+      "content": "Z\u00c5\u0082oto \u00f0\u009f\u0098\u008d",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110857169,
+      "content": "Wiesz co z Ignacem?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110852107,
+      "content": "4.5",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110848792,
+      "content": "A u cb?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110841955,
+      "content": "najs",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1518110829205,
+      "content": "3.5 :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110812641,
+      "content": ":)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1518110810623,
+      "content": "Jak tam SD?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517826920879,
+      "content": "tak z trzy godziny, bo zapomnialem zasilacza do lapka xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517826903944,
+      "content": "jak cos to ucze sie na agh w bibliotece SD",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1517572637024,
+      "content": "Powodzenia",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1517572633264,
+      "content": "No no",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572630505,
+      "content": "ale dzieki wielkie! :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572625472,
+      "content": "to pojde, i bede prosil",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572618610,
+      "content": "bo wtedy jest wglad",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572613730,
+      "content": "bede wiedzial w poniedzialek",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1517572601189,
+      "content": "Powiniene\u00c5\u009b z nim co\u00c5\u009b uzgodni\u00c4\u0087. Trzymam kciuki w ka\u00c5\u00bcdym razie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572556040,
+      "content": "a bauer to mi wyglada na wyjatkowo zajadlego wojownika",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572543563,
+      "content": "bo to juz jest jednak troche wkraczania na wojenna sciezke",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572527882,
+      "content": "czytalem, i traktuje to jako absolutna ostatecznosc",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1517572517336,
+      "content": "dzieki dzieki! :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1517572467172,
+      "content": "Nie wiem, czy to ju\u00c5\u00bc czyta\u00c5\u0082e\u00c5\u009b, ale:\n\n8a. Je\u00c5\u00bceli prowadz\u00c4\u0085cy zaj\u00c4\u0099cia stwierdzi niesamodzielno\u00c5\u009b\u00c4\u0087 pracy studenta, w szczeg\u00c3\u00b3lno\u00c5\u009bci w\nzakresie korzystania przez niego z niedozwolonych materia\u00c5\u0082\u00c3\u00b3w, urz\u00c4\u0085dze\u00c5\u0084, metod lub\n\u00c5\u009brodk\u00c3\u00b3w, student otrzymuje ocen\u00c4\u0099 niedostateczn\u00c4\u0085 z tego zaliczenia i traci prawo do\npoprawkowego zaliczenia, co skutkuje niezaliczeniem ca\u00c5\u0082ego przedmiotu i odnotowaniem\nw systemie teleinformatycznym Uczelni przy u\u00c5\u00bcyciu zapisu nie zaliczono (\u00e2\u0080\u009enzal.\u00e2\u0080\u009d).\n\n8b. W przypadku, o kt\u00c3\u00b3rym mowa w ust. 8a:\n1) prowadz\u00c4\u0085cy zaj\u00c4\u0099cia ma obowi\u00c4\u0085zek niezw\u00c5\u0082ocznie o tym fakcie zawiadomi\u00c4\u0087 Dziekana\nWydzia\u00c5\u0082u;\n2) student ma prawo z\u00c5\u0082o\u00c5\u00bcy\u00c4\u0087 odwo\u00c5\u0082anie do Dziekana Wydzia\u00c5\u0082u od decyzji prowadz\u00c4\u0085cego\nzaj\u00c4\u0099cia w terminie 7 dni od dnia poinformowania go o stwierdzeniu niesamodzielno\u00c5\u009bci\njego pracy.\n\nTen zapis: \"w szczeg\u00c3\u00b3lno\u00c5\u009bci\" jest ciekawy. Mo\u00c5\u00bce jeszcze nie jeste\u00c5\u009b stracony ;) Oby",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516815278416,
+      "content": "45 minut ABSu",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516815251988,
+      "content": "xd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516815242310,
+      "content": "Z przyjemno\u00c5\u009bci\u00c4\u0085 wpadniemy! \u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516815227436,
+      "content": "Ooo to super!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516815188686,
+      "content": "Mam ju\u00c5\u00bc wszystko i napisa\u00c5\u0082a, \u00c5\u00bce zaprasza w pi\u00c4\u0085tek na ostatnie zaj\u00c4\u0099cia",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516815169226,
+      "content": "Na szcz\u00c4\u0099\u00c5\u009bcie nie",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516808950850,
+      "content": "Masz odrabia\u00c4\u0087?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516808947497,
+      "content": "I co? :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516808542416,
+      "content": "Opali\u00c5\u0084ska mi odpisa\u00c5\u0082a \u00f0\u009f\u0098\u0080",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516547226248,
+      "content": "Spoko",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516547026312,
+      "content": "O rany, nie ma poj\u00c4\u0099cia :(",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516546651567,
+      "content": "Wiesz mo\u00c5\u00bce ile by\u00c5\u0082o wf'\u00c3\u00b3w w tym semestrze? Bo z tego co s\u00c5\u0082ysza\u00c5\u0082em, to mia\u00c5\u0082o by\u00c4\u0087 7 (i tak jest na syllabusie), ale chyba by\u00c5\u0082o 6 (i w tym tygodniu jest jeden 45 minut). Mo\u00c5\u00bcesz to potwierdzi\u00c4\u0087?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516190857363,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/MichalDziedzic_gW7F-Lks8g/audio/audioclip1515857919000198285_1728785417165981.mp4",
+          "creation_timestamp": 1516190855
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1516145395050,
+      "content": ":)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516145321251,
+      "content": "dziekuje bardzo! :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Micha\u00c5\u0082 Dziedzic",
+      "timestamp_ms": 1516145318118,
+      "content": "Szybki jak blyskawica!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Dariusz Czajkowski",
+      "timestamp_ms": 1498082821631,
+      "content": "Say hi to your new Facebook friend, Micha\u00c5\u0082.",
+      "type": "Generic"
+    }
+  ],
+  "title": "Micha\u00c5\u0082 Dziedzic",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/MichalDziedzic_gW7F-Lks8g",
+  "thread_chunk_index_INTERNAL": 0,
+  "thread_chunk_len_INTERNAL": 1
+}

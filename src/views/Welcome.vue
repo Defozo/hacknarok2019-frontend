@@ -33,9 +33,21 @@
   import _ from 'lodash'
   import { mapGetters, mapMutations } from 'vuex'
   import sentiment from 'sentiment-polish'
+  import TimeAgo from 'javascript-time-ago'
+  import en from 'javascript-time-ago/locale/en'
 
-
-  import { SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_STATUS, SET_TOP_PARTICIPANTS, SET_PARTICIPANTS } from '@/store/mutations'
+  import {
+    SET_FRIENDS,
+    SET_OWNER,
+    SET_TOP_WORDS,
+    SET_TOP_EMOJIS,
+    SET_STATUS,
+    SET_TOP_PARTICIPANTS,
+    SET_PARTICIPANTS,
+    SET_TOTAL_WORDS,
+    SET_TOTAL_MESSAGES,
+    SET_TIMING,
+  } from '@/store/mutations'
   import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
   import BatchProcessor from '@/modules/BatchProcessor'
@@ -49,10 +61,15 @@
     },
     computed: mapGetters([GET_STATUS]),
     methods: {
-      ...mapMutations([SET_STATUS, SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS, SET_PARTICIPANTS]),
+      ...mapMutations([SET_STATUS, SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS,
+                       SET_PARTICIPANTS, SET_TOTAL_WORDS, SET_TOTAL_MESSAGES, SET_TIMING]),
       processTopWords(messages, owner) {
         const processor = new BatchProcessor(messages, owner)
         processor.setup()
+
+        this.setTotalWords(processor.totalWords)
+        this.setTotalMessages(processor.totalMessages)
+
         const count = processor.countWords()
         return {
           words: _.take(count.wordArray, 5).map(({ key, value }) => ({ text: key, amount: value })),
@@ -60,8 +77,8 @@
         }
       },
 
-      calculateSentiment(messages){
-        const tokenizedWords = messages.map( message => message.content).join(' ').split(' ');
+      calculateSentiment(messages) {
+        const tokenizedWords = messages.map(message => message.content).join(' ').split(' ')
         const getAverageSentiment = (texts) => {
           let scoreSum = 0
           for (let i = 0; i < texts.length; i++) {
@@ -70,7 +87,7 @@
 
           return scoreSum / texts.length
         }
-        return getAverageSentiment(tokenizedWords);
+        return getAverageSentiment(tokenizedWords)
       },
 
       processParticipants(messages) {
@@ -78,7 +95,7 @@
           name,
           messages: messages.length,
           sentiment: this.calculateSentiment(messages),
-          date: messages[0].date
+          date: messages[0].date,
         })), 'messages'))
       },
 
@@ -101,10 +118,21 @@
 
         const allMessages = await zipHandler.getAllMessages(owner)
 
+        console.log(allMessages)
+
+        const min = _.min(allMessages.flatMap(message => message.messages)
+          .map(message => message.date))
+        TimeAgo.addLocale(en)
+        const timeAgo = new TimeAgo('en-US')
+
+        let timing = timeAgo.format(new Date(min));
+
         const { words, emojis } = this.processTopWords(allMessages, owner)
 
         this.setTopWords(words)
         this.setTopEmojis(emojis)
+        console.log(timing);
+        this.setTiming(timing)
 
         const participants = this.processParticipants(allMessages)
 

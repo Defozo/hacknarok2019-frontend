@@ -4,7 +4,7 @@ import _ from 'lodash'
 import JSZip from 'jszip'
 
 import EncodingFixer from '@/modules/EncodingFixer'
-import { SET_STATUS } from '@/store/mutations'
+import { SET_STATUS, SET_TOTAL_CONVERSATION } from '@/store/mutations'
 
 export default class ZipHandler {
   constructor(store) {
@@ -51,6 +51,8 @@ export default class ZipHandler {
     const messagesFileNames = _.keys(this.files).filter(fileName => regex.test(fileName))
     const result = []
     const totalMessages = messagesFileNames.length
+
+    this.store.commit(SET_TOTAL_CONVERSATION, totalMessages);
 
     let i = 0
 
