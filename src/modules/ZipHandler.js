@@ -52,7 +52,7 @@ export default class ZipHandler {
     const result = []
     const totalMessages = messagesFileNames.length
 
-    this.store.commit(SET_TOTAL_CONVERSATION, totalMessages);
+    this.store.commit(SET_TOTAL_CONVERSATION, totalMessages)
 
     let i = 0
 
@@ -62,16 +62,16 @@ export default class ZipHandler {
       }
 
       const fileContents = await this.files[fileName].async('binarystring')
-      const { participants, messages, title } = JSON.parse(fileContents)
+      const { participants, messages } = JSON.parse(fileContents)
 
       if (participants.length != 2) {
         continue
       }
 
       const maybeParticipant = participants.filter(({ name }) => EncodingFixer.fixText(name) !== owner)
-      console.log('<owner>', owner);
-      console.log('<maybe>', maybeParticipant);
-      console.log('<parti>', participants);
+      console.log('<owner>', owner)
+      console.log('<maybe>', maybeParticipant)
+      console.log('<parti>', participants)
       if (maybeParticipant.length !== 1) {
         // throw `An error occurred parsing conversation with ${title}`
         continue

@@ -45,6 +45,8 @@
 </template>
 
 <script>
+  import _ from 'lodash'
+
   import { mapGetters } from 'vuex'
   import { GET_PARTICIPANTS } from '../store/getters'
 
@@ -73,7 +75,7 @@
         }
 
         const participants = this.getParticipants
-        const index = participants.map(p => p.name).indexOf(this.searchedPhrase)
+        const index = participants.map(p => _.toLower(_.deburr(p.name))).indexOf(_.toLower(_.deburr(this.searchedPhrase)))
 
         if (index === -1) {
           this.found = {
