@@ -45,6 +45,9 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+  import { GET_PARTICIPANTS } from '../store/getters'
+
   export default {
     name: 'MessagesWithChoosen',
     data() {
@@ -52,6 +55,9 @@
         searchedPhrase: '',
         found: null,
       }
+    },
+    computed: {
+      ...mapGetters({getParticipants: GET_PARTICIPANTS}),
     },
     watch: {
       searchedPhrase(val) {
@@ -65,56 +71,28 @@
         if (this.searchedPhrase === '') {
           return
         }
+        
+        const participants = this.getParticipants
+        const index = participants.map(p => p.name).indexOf(this.searchedPhrase)
 
-        console.log('search')
-        // sentiment min 0 max 90 scale it properly
-        // tutaj szukasz
-        const found = {
-          name: 'Imie i nazwisko',
-          messages: 890,
-          number: `#${25}`, // miejsce od najwiecej wiadomości
-          sentiment: 90,
-          lastMessageDate: new Date(1539452456572)
+        if (index === -1) {
+          this.found = {
+            name: null,
+            messages: null,
+            number: null,
+            sentiment: 0,
+            lastMessageDate: null,
+          }
+        } else {
+          this.found = {
+            name: participants[index].name,
+            messages: participants[index].messages,
+            number: `#${index + 1}`,
+            sentiment: (participants[index].sentiment + 5) * 9,
+            lastMessageDate: new Date(participants[index].date),
+          }
         }
-        // jak nie znaleziono to  ustaw
-        // found: {
-        //   name: null,
-        //     messages: null,
-        //     number: null,
-        //     sentiment: 0,
-        //     lastMessageDate: null,
-        // },
-        this.found = found
       },
-      formatDate(date){
-
-
-        let delta = Math.round((new Date - date) / 1000);
-
-        const minute = 60,
-          hour = minute * 60,
-          day = hour * 24,
-          week = day * 7;
-
-        let fuzzy;
-
-        if (delta < 30) {
-          fuzzy = 'just now.';
-        } else if (delta < minute) {
-          fuzzy = delta + ' seconds ago.';
-        } else if (delta < 2 * minute) {
-          fuzzy = 'a minute ago.'
-        } else if (delta < hour) {
-          fuzzy = Math.floor(delta / minute) + ' minutes ago.';
-        } else if (Math.floor(delta / hour) == 1) {
-          fuzzy = '1 hour ago.'
-        } else if (delta < day) {
-          fuzzy = Math.floor(delta / hour) + ' hours ago.';
-        } else if (delta < day * 2) {
-          fuzzy = 'yesterday';
-        }
-        return fuzzy
-      }
     },
   }
 </script>

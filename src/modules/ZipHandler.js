@@ -112,10 +112,11 @@ export default class ZipHandler {
     this.store.commit(SET_STATUS, status)
   }
 
-  _formatMessage({ sender_name: sender, content }) {
+  _formatMessage({ sender_name: sender, content, timestamp_ms }) {
     return {
       sender: EncodingFixer.fixText(sender),
       content: EncodingFixer.fixText(content),
+      date: timestamp_ms,
     }
   }
 
