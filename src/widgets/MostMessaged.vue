@@ -25,25 +25,16 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+  import { GET_TOP_PARTICIPANTS } from '@/store/getters'
+
   export default {
     name: 'MostMessaged',
-    data() {
-      return {
-        mostMessaged: [
-          {
-            name: 'Darek Czajkowski',
-            messages: 84120,
-          },
-          {
-            name: 'Michał Dziedzic',
-            messages: 64032,
-          },
-          {
-            name: 'Michał Kiełtyka',
-            messages: 78021,
-          },
-        ],
-      }
+    computed: {
+      ...mapGetters([GET_TOP_PARTICIPANTS]),
+      mostMessaged() {
+        return this.getTopParticipants
+      },
     },
   }
 </script>
