@@ -15,7 +15,7 @@
             class="mb-2 text-purple-dark font-semibold text-xl self-start whitespace-no-wrap">
             {{friend.name}}</p>
           <div class="flex justify-between">
-            <p class="text-grey-light">messages: </p>
+            <p class="text-grey-light">common messages: </p>
             <p class="text-grey-dark font-semibold">{{friend.messages}}</p>
           </div>
         </div>

@@ -32,7 +32,7 @@
     data() {
       return {
         numbers: [],
-        statusArray: [0, 0, 0, 0, 0, 0, 0, 0],
+        statusArray: [0, 0, 0, 0, 0, 0, 0],
       }
     },
     computed: {
@@ -41,7 +41,7 @@
         return index => this.statusArray[index]
       },
       getTop() {
-        return _.take(_.reverse(_.sortBy([...this.getTopWords, ...this.getTopEmojis], 'amount')), 8)
+        return _.take(_.reverse(_.sortBy([...this.getTopWords, ...this.getTopEmojis], 'amount')), 7)
       },
     },
     methods: {
