@@ -49,13 +49,19 @@
     opacity: 0;
   }
 
-  .label:nth-child(2) {
+  .label:nth-child(1) {
     animation-delay: .5s
+  }
+  .label:nth-child(2) {
+    animation-delay: 1.0s
   }
 
   .label:nth-child(3) {
-    animation-delay: 1s
+    animation-delay: 1.5s
   }
+  /*.most_messaged{*/
+    /*background-image: url("../assets/Blob.svg");*/
+  /*}*/
 
   @keyframes slide-in {
     0% {

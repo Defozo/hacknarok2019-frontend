@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard">
-    <div class="flex">
-      <div class="w-3/5 h-64"></div>
+    <div class="flex justify-between">
+      <profile></profile>
       <most-messaged></most-messaged>
     </div>
     <messages-with-choosen></messages-with-choosen>
@@ -13,10 +13,12 @@
   import MostMessaged from '../widgets/MostMessaged'
   import WordsUsedWidget from '../widgets/WordsUsedWidget'
   import MessagesWithChoosen from '../widgets/MessagesWithChoosen'
+  import Profile from "../widgets/Profile";
 
   export default {
     name: 'Dashboard',
     components: {
+      Profile,
       MessagesWithChoosen,
       WordsUsedWidget,
       MostMessaged,
