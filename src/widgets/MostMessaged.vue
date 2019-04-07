@@ -27,31 +27,13 @@
 <script>
   import { mapGetters } from 'vuex'
   import { GET_TOP_PARTICIPANTS } from '@/store/getters'
-  import MessagesWithChoosen from './MessagesWithChoosen'
-  
+  // import MessagesWithChoosen from './MessagesWithChoosen'
+
   export default {
     name: 'MostMessaged',
-    components: {
-      MessagesWithChoosen,
-    },
-    data() {
-      return {
-        mostMessaged: [
-          {
-            name: 'Darek Czajkowski',
-            messages: 84120,
-          },
-          {
-            name: 'Michał Dziedzic',
-            messages: 64032,
-          },
-          {
-            name: 'Michał Kiełtyka',
-            messages: 78021,
-          },
-        ],
-      }
-    },
+    // components: {
+    //   MessagesWithChoosen,
+    // },
     computed: {
       ...mapGetters([GET_TOP_PARTICIPANTS]),
       mostMessaged() {

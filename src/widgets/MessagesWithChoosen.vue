@@ -43,7 +43,10 @@
     },
     methods: {
       search() {
-        if (this.searchedPhrase === '')  return;
+        if (this.searchedPhrase === '') {
+          return
+        }
+
         console.log('search')
         // tutaj szukasz
         const found = {

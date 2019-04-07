@@ -12,10 +12,14 @@
 <script>
   import MostMessaged from '../widgets/MostMessaged'
   import WordsUsedWidget from '../widgets/WordsUsedWidget'
-  import MessagesWithChoosen from "../widgets/MessagesWithChoosen";
+  import MessagesWithChoosen from '../widgets/MessagesWithChoosen'
 
   export default {
     name: 'Dashboard',
-    components: {MessagesWithChoosen, WordsUsedWidget, MostMessaged },
+    components: {
+      MessagesWithChoosen,
+      WordsUsedWidget,
+      MostMessaged,
+    },
   }
 </script>
