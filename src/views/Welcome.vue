@@ -115,7 +115,7 @@
           return
         }
 
-        // this.setFriends(await zipHandler.getFriends())
+        this.setFriends(await zipHandler.getFriends())
 
         const owner = await zipHandler.getOwner()
 
