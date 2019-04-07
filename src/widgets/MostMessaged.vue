@@ -1,6 +1,6 @@
 <template>
   <div class="most_messaged flex flex-col mr-6">
-    <h2 class="p-4 text-grey">Most Messaged</h2>
+    <h2 class="p-4 text-grey text-right text-white">Most Messaged</h2>
     <div class="flex flex-col">
       <div
         class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg flex align-start label"
@@ -15,7 +15,7 @@
             class="mb-2 text-purple-dark font-semibold text-xl self-start whitespace-no-wrap">
             {{friend.name}}</p>
           <div class="flex justify-between">
-            <p class="text-grey-light">messages: </p>
+            <p class="text-grey-light">common messages: </p>
             <p class="text-grey-dark font-semibold">{{friend.messages}}</p>
           </div>
         </div>
