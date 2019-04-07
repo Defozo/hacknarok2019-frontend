@@ -5,7 +5,7 @@
 
       <div class="flex align-middle justify-between flex-wrap">
         <div
-          class="mx-8 w-32 h-32 p-2 rounded-full bg-white shadow-lg"
+          class="mx-8 w-32 h-32 p-2 mb-4 rounded-full bg-white shadow-lg"
           :key="word.text"
           v-for="(word, index) in getTop"
         >
