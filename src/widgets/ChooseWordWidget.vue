@@ -10,11 +10,11 @@
 </template>
 
 <script>
-
-  import {mapGetters} from 'vuex'
+  import { mapGetters } from 'vuex'
   import {
     GET_WORDS,
   } from '../store/getters'
+
   export default {
     name: 'ChooseWordWidget',
     data() {
@@ -27,11 +27,11 @@
       ...mapGetters([GET_WORDS]),
     },
     watch: {
-      searchedPhrase(val){
-        if (val === ''){
+      searchedPhrase(val) {
+        if (val === '') {
           this.found = null
         }
-      }
+      },
     },
     methods: {
       search() {
