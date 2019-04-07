@@ -37,7 +37,7 @@
         <p
           class="mb-3 text-grey font-semibold text-xl self-start whitespace-no-wrap">
           last messaged at</p>
-        <p class="text-grey-dark font-semibold self-start">{{found.lastMessageDate.toLocaleDateString() ||
+        <p class="text-grey-dark font-semibold self-start">{{toMyDate(found.lastMessageDate) ||
           'N/A'}}</p>
       </div>
     </div>
@@ -88,10 +88,17 @@
             name: participants[index].name,
             messages: participants[index].messages,
             number: `#${index + 1}`,
-            sentiment: (participants[index].sentiment + 5) * 9,
+            sentiment: this.scaleSentiment(participants[index].sentiment),
             lastMessageDate: new Date(participants[index].date),
           }
         }
+      },
+      scaleSentiment(sentiment) {
+        return (sentiment * 400 + 5) * 9
+      },
+      toMyDate(date){
+        if (!date) return null
+        return date.toLocaleDateString()
       },
     },
   }
