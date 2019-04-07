@@ -127,13 +127,12 @@
         TimeAgo.addLocale(en)
         const timeAgo = new TimeAgo('en-US')
 
-        let timing = timeAgo.format(new Date(min));
+        const timing = timeAgo.format(new Date(min));
 
         const { words, emojis } = this.processWords(allMessages, owner)
 
         this.setTopWords(words)
         this.setTopEmojis(emojis)
-        console.log(timing);
         this.setTiming(timing)
 
         const participants = this.processParticipants(allMessages)

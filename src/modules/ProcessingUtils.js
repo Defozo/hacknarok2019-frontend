@@ -1,8 +1,9 @@
 import emojiArray from '@/modules/emojis'
 
 export default class ProcessingUtils {
-  setup(messages, flag) {
-    const words = {}
+  setup(messages) {
+    const longWords = {}
+    const allWords = {}
     const emojis = {}
 
     messages.replace(new RegExp('\\n', 'g'), ' ')
@@ -10,13 +11,15 @@ export default class ProcessingUtils {
       .forEach(word => {
         if (emojiArray.includes(word)) {
           this._addOrIncrementArray(emojis, word)
-        }
-        else if (word.length > 3 || flag === true ) {
-          this._addOrIncrementArray(words, word)
+        } else {
+          if (word.length > 3) {
+            this._addOrIncrementArray(longWords, word)
+          }
+          this._addOrIncrementArray(allWords, word)
         }
       })
 
-    return { words, emojis }
+    return { longWords, allWords, emojis }
   }
 
   getMessagesOfAUser(allMessages, username) {

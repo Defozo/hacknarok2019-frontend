@@ -22,12 +22,10 @@ export default class BatchProcessor extends Processor {
     this.totalMessages = messagesOfAUser.length
     console.log(this.totalMessages);
 
-    const { words, emojis } = this.utils.setup(messageString, false)
-    const obj = this.utils.setup(messageString, true)
+    const { longWords, allWords, emojis } = this.utils.setup(messageString)
 
-    console.log()
-    this.allWords = obj.words
-    this.words = words
+    this.allWords = allWords
+    this.words = longWords
     this.emojis = emojis
   }
 }

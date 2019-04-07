@@ -69,9 +69,12 @@ export default class ZipHandler {
       }
 
       const maybeParticipant = participants.filter(({ name }) => EncodingFixer.fixText(name) !== owner)
-
+      console.log('<owner>', owner);
+      console.log('<maybe>', maybeParticipant);
+      console.log('<parti>', participants);
       if (maybeParticipant.length !== 1) {
-        throw `An error occurred parsing conversation with ${title}`
+        // throw `An error occurred parsing conversation with ${title}`
+        continue
       }
 
       const participant = maybeParticipant[0].name

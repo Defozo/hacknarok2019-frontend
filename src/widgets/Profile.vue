@@ -1,34 +1,34 @@
 <template>
   <div
-    class=" p-8 mx-8 mb-2 mt-4 bg-white rounded-lg flex flex-col anim">
+      class=" p-8 mx-8 mb-2 mt-4 bg-white rounded-lg flex flex-col anim">
     <div class="flex">
       <div
-        class="photo rounded-full h-24 w-24 bg-purple flex items-center text-5xl text-white font-extrabold justify-center">
+          class="photo rounded-full h-24 w-24 bg-purple flex items-center text-5xl text-white font-extrabold justify-center">
         {{getNameLetter()}}
       </div>
       <div class="flex flex-col ml-8 mr-8 text-left flex-1">
-        <div class="text-purple-dark text-3xl font-semibold">{{profile.name}}
+        <div class="text-purple-dark text-3xl font-semibold">{{this.getOwner}}
         </div>
         <div class=""></div>
       </div>
     </div>
     <div
-      class="px-4 py-2 mt-6 border-b text-grey font-semibold border-grey-lighter flex justify-between">
+        class="px-4 py-2 mt-6 border-b text-grey font-semibold border-grey-lighter flex justify-between">
       <p>Total conversations:</p>
       <p class="text-purple-dark">{{this.getTotalConversation}}</p>
     </div>
     <div
-      class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
+        class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
       <p>Total messages:</p>
       <p class="text-purple-dark">{{this.getTotalMessages}}</p>
     </div>
     <div
-      class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
+        class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
       <p>Total words:</p>
       <p class="text-purple-dark">{{this.getTotalWords}}</p>
     </div>
     <div
-      class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
+        class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
       <p>Account created:</p>
       <p class="text-purple-dark">{{this.getTiming}} </p>
     </div>
@@ -40,7 +40,8 @@
     GET_TOTAL_WORDS,
     GET_TOTAL_MESSAGES,
     GET_TOTAL_CONVERSATION,
-    GET_TIMING
+    GET_TIMING,
+    GET_OWNER,
   } from '../store/getters'
   import {mapGetters} from 'vuex'
 
@@ -58,11 +59,12 @@
       }
     },
     computed: {
-      ...mapGetters([GET_TOTAL_WORDS, GET_TOTAL_MESSAGES, GET_TOTAL_CONVERSATION, GET_TIMING]),
+      ...mapGetters(
+          [GET_TOTAL_WORDS, GET_TOTAL_MESSAGES, GET_TOTAL_CONVERSATION, GET_TIMING, GET_OWNER]),
     },
     methods: {
       getNameLetter() {
-        return this.profile.name[0]
+        return this.getOwner[0];
       },
     },
   }
