@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - apt-get update -y
+      - apt-get install -y curl gnupg git unzip
+      - curl -sL https://deb.nodesource.com/setup_8.x | bash -
+      - apt install -y nodejs
+      - npm install
+      - npm run build
+      - aws s3 sync dist/ s3://yomessages.tk/ --metadata-directive REPLACE --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type text/html --exclude='*' --include='*.html' --acl public-read --sse --delete
+      - aws s3 sync dist/ s3://yomessages.tk/ --metadata-directive REPLACE --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type application/javascript --exclude='*' --include='service-worker.js' --acl public-read --sse --delete
+      - aws s3 sync dist/ s3://yomessages.tk/ --cache-control="max-age=604800,public" --exclude='*.html' --exclude='service-worker.js' --acl public-read --sse --delete
+      - aws configure set preview.cloudfront true
+      - aws cloudfront create-invalidation --distribution-id E37BL7O63ZT14H --paths '/map/*'
+  post_build:
+    commands:
+      - cat /root/.npm/_logs/* || true
+artifacts:
+  files:
+    - dist/**/*
