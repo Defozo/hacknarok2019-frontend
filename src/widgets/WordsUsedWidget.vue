@@ -83,7 +83,7 @@
 
   .word_amount{
     position: relative;
-    top: -75px;
+    top: -70px;
   }
 
   .word_text{

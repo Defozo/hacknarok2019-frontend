@@ -1,5 +1,5 @@
 <template>
-  <div class="most_messaged">
+  <div class="most_messaged flex flex-col mr-6">
     <h2 class="p-4 text-grey">Most Messaged</h2>
     <div class="flex flex-col">
       <div
@@ -27,9 +27,31 @@
 <script>
   import { mapGetters } from 'vuex'
   import { GET_TOP_PARTICIPANTS } from '@/store/getters'
-
+  import MessagesWithChoosen from './MessagesWithChoosen'
+  
   export default {
     name: 'MostMessaged',
+    components: {
+      MessagesWithChoosen,
+    },
+    data() {
+      return {
+        mostMessaged: [
+          {
+            name: 'Darek Czajkowski',
+            messages: 84120,
+          },
+          {
+            name: 'Michał Dziedzic',
+            messages: 64032,
+          },
+          {
+            name: 'Michał Kiełtyka',
+            messages: 78021,
+          },
+        ],
+      }
+    },
     computed: {
       ...mapGetters([GET_TOP_PARTICIPANTS]),
       mostMessaged() {
