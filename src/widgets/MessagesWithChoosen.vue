@@ -1,16 +1,17 @@
 <template>
   <div class="flex flex-col">
     <input
-      class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg anim"
-      placeholder="check friend" @keyup.enter="search()"
+      class="px-8 py-4 mx-8 mt-8 self-center w-1/3 bg-grey-lightest text-center text-xl border-purple-dark animate text-purple-dark "
+      :class="(searchedPhrase === '') ? 'border-b-4' : 'border-b-0' "
+      placeholder="Type your friend name here" @keyup.enter="search()"
       v-model="searchedPhrase">
     <div v-if="found"
-         class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg flex align-start anim2">
+         class="bg-white px-8 py-4 mx-8 mt-4 shadow-lg rounded-lg flex align-start anim2">
       <div
         class="left_column self-center text-5xl font-black mr-6 text-purple-dark">
         {{found.number || 'N/A'}}
       </div>
-      <div class="right_column flex flex-col align-stretch flex-1">
+      <div class="right_column flex flex-col align-stretch">
         <p
           class="mb-2 text-purple-dark font-semibold text-xl self-start whitespace-no-wrap">
           {{found.name}}</p>
@@ -42,6 +43,7 @@
     },
     methods: {
       search() {
+        if (this.searchedPhrase === '')  return;
         console.log('search')
         // tutaj szukasz
         const found = {
@@ -62,6 +64,9 @@
 </script>
 
 <style scoped>
+  .animate{
+    transition: border 0.4s ease;
+  }
   .anim {
     animation: slide-in 0.5s forwards;
     animation-delay: 1.5s;

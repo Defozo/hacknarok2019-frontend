@@ -1,5 +1,5 @@
 <template>
-  <div class="most_messaged flex flex-col">
+  <div class="most_messaged flex flex-col mr-6">
     <h2 class="p-4 text-grey">Most Messaged</h2>
     <div class="flex flex-col">
       <div
@@ -21,7 +21,6 @@
         </div>
       </div>
     </div>
-    <messages-with-choosen></messages-with-choosen>
   </div>
 </template>
 
