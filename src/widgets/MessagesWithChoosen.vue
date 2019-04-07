@@ -59,7 +59,7 @@
       }
     },
     computed: {
-      ...mapGetters({getParticipants: GET_PARTICIPANTS}),
+      ...mapGetters({ getParticipants: GET_PARTICIPANTS }),
     },
     watch: {
       searchedPhrase(val) {
@@ -86,7 +86,7 @@
             lastMessageDate: null,
           }
         } else {
-          console.log(participants[index]);
+          console.log(participants[index])
           this.found = {
             name: participants[index].name,
             messages: participants[index].messages,
@@ -102,7 +102,7 @@
         if (score > 90) return 90
         return score
       },
-      toMyDate(date){
+      toMyDate(date) {
         if (!date) return null
         return date.toLocaleDateString()
       },
