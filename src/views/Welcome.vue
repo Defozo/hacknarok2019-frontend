@@ -61,7 +61,7 @@
       },
 
       calculateSentiment(messages){
-        // const tokenizedWords = messages.map( message => message.content).join(' ').split(' ');
+        const tokenizedWords = messages.map( message => message.content).join(' ').split(' ');
         const getAverageSentiment = (texts) => {
           let scoreSum = 0
           for (let i = 0; i < texts.length; i++) {
@@ -70,7 +70,7 @@
 
           return scoreSum / texts.length
         }
-        return getAverageSentiment(messages);
+        return getAverageSentiment(tokenizedWords);
       },
 
       processParticipants(messages) {

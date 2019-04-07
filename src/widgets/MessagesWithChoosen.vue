@@ -95,7 +95,10 @@
         }
       },
       scaleSentiment(sentiment) {
-        return (sentiment * 400 + 5) * 9
+        const score = (sentiment * 350 + 7) * 9
+        if (score < 0) return 0
+        if (score > 90) return 90
+        return score
       },
       toMyDate(date){
         if (!date) return null
