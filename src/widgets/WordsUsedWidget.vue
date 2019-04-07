@@ -18,6 +18,10 @@
 
 <script>
   import Vue from 'vue'
+  import _ from 'lodash'
+
+  import { GET_MESSAGES, GET_OWNER } from '@/store/getters'
+  import BatchProcessor from '@/modules/BatchProcessor'
 
   export default {
     name: 'WordsUsedWidget',
@@ -25,31 +29,20 @@
       return {
         numbers: [],
         statusArray: [0, 0, 0, 0, 0],
-        topWordsUsed: [
-          {
-            text: 'dupa',
-            amount: 9600,
-          },
-          {
-            text: 'siema',
-            amount: 4570,
-          },
-          {
-            text: 'dzionek',
-            amount: 1230,
-          },
-          {
-            text: 'ozor',
-            amount: 960,
-          },
-          {
-            text: 'XD',
-            amount: 340,
-          },
-        ],
       }
     },
     computed: {
+      topWordsUsed() {
+        // [{text: 'dupa',amount: 9600}]
+
+        const processor = new BatchProcessor(this.$store.getters[GET_MESSAGES], this.$store.getters[GET_OWNER])
+
+        processor.setup()
+
+        const count = processor.countWords()
+
+        return _.take(count.wordArray, 5).map(({ key, value }) => ({ text: key, amount: value }))
+      },
       status() {
         return index => this.statusArray[index]
       },
