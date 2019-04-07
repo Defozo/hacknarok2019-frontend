@@ -74,11 +74,11 @@
       },
 
       processParticipants(messages) {
-        return _.reverse(_.sortBy(messages.map(({ name, messages, date }) => ({
+        return _.reverse(_.sortBy(messages.map(({ name, messages }) => ({
           name,
           messages: messages.length,
           sentiment: this.calculateSentiment(messages),
-          date
+          date: messages[0].date
         })), 'messages'))
       },
 

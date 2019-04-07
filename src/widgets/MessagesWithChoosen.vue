@@ -71,7 +71,7 @@
         if (this.searchedPhrase === '') {
           return
         }
-        
+
         const participants = this.getParticipants
         const index = participants.map(p => p.name).indexOf(this.searchedPhrase)
 
@@ -84,6 +84,7 @@
             lastMessageDate: null,
           }
         } else {
+          console.log(participants[index]);
           this.found = {
             name: participants[index].name,
             messages: participants[index].messages,
