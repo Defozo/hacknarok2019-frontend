@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <img id="blob1" src="../assets/Blob.svg">
-    <img id="blob2" src="../assets/tache-dencre.png">
-    <img id="blob3" src="../assets/tache-dencre.png">
+  <div class="w-full relative overflow-hidden">
+      <img id="blob1" src="../assets/Blob.svg">
+      <img id="blob2" src="../assets/tache-dencre.png">
+      <img id="blob3" src="../assets/tache-dencre.png">
 
     <div class="dashboard">
       <div class="flex justify-between">
@@ -11,6 +11,7 @@
       </div>
       <messages-with-choosen></messages-with-choosen>
       <words-used-widget></words-used-widget>
+      <choose-word-widget></choose-word-widget>
     </div>
   </div>
 </template>
@@ -20,10 +21,12 @@
   import WordsUsedWidget from '../widgets/WordsUsedWidget'
   import MessagesWithChoosen from '../widgets/MessagesWithChoosen'
   import Profile from "../widgets/Profile";
+  import ChooseWordWidget from "../widgets/ChooseWordWidget";
 
   export default {
     name: 'Dashboard',
     components: {
+      ChooseWordWidget,
       Profile,
       MessagesWithChoosen,
       WordsUsedWidget,
@@ -41,6 +44,7 @@
     max-width: 800px;
     z-index: -3;
   }
+
   #blob2 {
     position: absolute;
     transform: rotate(60deg);
@@ -50,6 +54,7 @@
     max-width: 700px;
     z-index: -3;
   }
+
   #blob3 {
     position: absolute;
     -webkit-transform: rotate(260deg);

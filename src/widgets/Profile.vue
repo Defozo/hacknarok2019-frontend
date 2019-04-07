@@ -25,7 +25,7 @@
       <p class="text-purple-dark">156190</p>
     </div>
     <div class="px-4 py-2 border-b text-grey font-semibold border-grey-lighter flex justify-between">
-      <p>Account active for:</p>
+      <p>Account created:</p>
       <p class="text-purple-dark">4 years</p>
     </div>
     <div></div>
