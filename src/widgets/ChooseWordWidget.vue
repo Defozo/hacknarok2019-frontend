@@ -10,6 +10,11 @@
 </template>
 
 <script>
+
+  import {mapGetters} from 'vuex'
+  import {
+    GET_WORDS,
+  } from '../store/getters'
   export default {
     name: 'ChooseWordWidget',
     data() {
@@ -17,6 +22,9 @@
         searchedPhrase: '',
         found: null,
       }
+    },
+    computed: {
+      ...mapGetters([GET_WORDS]),
     },
     watch: {
       searchedPhrase(val){
@@ -27,7 +35,10 @@
     },
     methods: {
       search() {
-        this.found = 789
+        const words = this.getWords
+        const count = words[this.searchedPhrase]
+        console.log(count)
+        this.found = (count !== undefined) ? count : 'Not found'
       },
     },
   }

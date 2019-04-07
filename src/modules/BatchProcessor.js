@@ -7,6 +7,7 @@ export default class BatchProcessor extends Processor {
     this.messages = messages
     this.username = username
     this.totalWords = null;
+    this.allWords = null;
     this.totalMessages = null;
   }
 
@@ -21,8 +22,11 @@ export default class BatchProcessor extends Processor {
     this.totalMessages = messagesOfAUser.length
     console.log(this.totalMessages);
 
-    const { words, emojis } = this.utils.setup(messageString)
+    const { words, emojis } = this.utils.setup(messageString, false)
+    const obj = this.utils.setup(messageString, true)
 
+    console.log()
+    this.allWords = obj.words
     this.words = words
     this.emojis = emojis
   }

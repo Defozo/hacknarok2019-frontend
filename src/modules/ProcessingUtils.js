@@ -1,7 +1,7 @@
 import emojiArray from '@/modules/emojis'
 
 export default class ProcessingUtils {
-  setup(messages) {
+  setup(messages, flag) {
     const words = {}
     const emojis = {}
 
@@ -10,7 +10,8 @@ export default class ProcessingUtils {
       .forEach(word => {
         if (emojiArray.includes(word)) {
           this._addOrIncrementArray(emojis, word)
-        } else if (word.length > 3) {
+        }
+        else if (word.length > 3 || flag === true ) {
           this._addOrIncrementArray(words, word)
         }
       })

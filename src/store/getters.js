@@ -9,5 +9,6 @@ export const GET_TOTAL_WORDS = 'getTotalWords'
 export const GET_TOTAL_MESSAGES = 'getTotalMessages'
 export const GET_TOTAL_CONVERSATION = 'getTotalConversation'
 export const GET_TIMING = 'getTiming'
+export const GET_WORDS = 'getWords'
 
 

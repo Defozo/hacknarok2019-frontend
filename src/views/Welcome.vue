@@ -48,6 +48,7 @@
     SET_TOTAL_WORDS,
     SET_TOTAL_MESSAGES,
     SET_TIMING,
+    SET_WORDS,
   } from '@/store/mutations'
   import { GET_STATUS } from '@/store/getters'
   import ZipHandler from '@/modules/ZipHandler'
@@ -63,14 +64,15 @@
     computed: mapGetters([GET_STATUS]),
     methods: {
       ...mapMutations([SET_STATUS, SET_FRIENDS, SET_OWNER, SET_TOP_WORDS, SET_TOP_EMOJIS, SET_TOP_PARTICIPANTS,
-                       SET_PARTICIPANTS, SET_TOTAL_WORDS, SET_TOTAL_MESSAGES, SET_TIMING]),
-      processTopWords(messages, owner) {
+                       SET_PARTICIPANTS, SET_TOTAL_WORDS, SET_TOTAL_MESSAGES, SET_TIMING, SET_WORDS]),
+      processWords(messages, owner) {
         const processor = new BatchProcessor(messages, owner)
         processor.setup()
 
         this.setTotalWords(processor.totalWords)
         this.setTotalMessages(processor.totalMessages)
-
+        console.log(processor.allWords);
+        this.setWords(processor.allWords)
         const count = processor.countWords()
         return {
           words: _.take(count.wordArray, 5).map(({ key, value }) => ({ text: key, amount: value })),
@@ -128,7 +130,7 @@
 
         let timing = timeAgo.format(new Date(min));
 
-        const { words, emojis } = this.processTopWords(allMessages, owner)
+        const { words, emojis } = this.processWords(allMessages, owner)
 
         this.setTopWords(words)
         this.setTopEmojis(emojis)
