@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full items-center">
+  <div class="flex w-full items-center mb-4">
     <p class="text-purple-dark m-4 font-semibold text-xl">Check number of occurrences: </p>
     <input
       class="px-4 py-2 m-4 self-start shadow-lg w-1/6 rounded bg-white text-center text-xl animate outline-none text-purple-dark "

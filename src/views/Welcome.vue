@@ -1,6 +1,7 @@
 <template>
   <div class="welcome flex flex-col min-h-screen">
-    <div class="mt-32">
+    <img id="guide" src="../assets/guide.svg">
+    <div class="box">
       <h1 class="text-purple-dark m-8 text-5xl">
         Get your stats now
       </h1>
@@ -153,6 +154,19 @@
 
   input[type="file"] {
     display: none;
+  }
+
+  .box{
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 245px)
+  }
+  #guide{
+    position: absolute;
+    top: 60px;
+    height: 550px;
+    min-width: 1200px;
+    left: calc(50% - 600px)
   }
 
   .lds-ring {
