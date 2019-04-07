@@ -1,0 +1,94 @@
+<template>
+  <div class="flex flex-col">
+    <input
+      class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg anim"
+      placeholder="check friend" @keyup.enter="search()"
+      v-model="searchedPhrase">
+    <div v-if="found"
+         class="bg-white px-8 py-4 m-2 shadow-lg rounded-lg flex align-start anim2">
+      <div
+        class="left_column self-center text-5xl font-black mr-6 text-purple-dark">
+        {{found.number || 'N/A'}}
+      </div>
+      <div class="right_column flex flex-col align-stretch flex-1">
+        <p
+          class="mb-2 text-purple-dark font-semibold text-xl self-start whitespace-no-wrap">
+          {{found.name}}</p>
+        <div class="flex justify-between">
+          <p class="text-grey-light">messages: </p>
+          <p class="text-grey-dark font-semibold">{{found.messages ||
+            'N/A'}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'MessagesWithChoosen',
+    data() {
+      return {
+        searchedPhrase: '',
+        found: null,
+      }
+    },
+    watch: {
+      searchedPhrase(val) {
+        if (val === '') {
+          this.found = null
+        }
+      },
+    },
+    methods: {
+      search() {
+        console.log('search')
+        // tutaj szukasz
+        const found = {
+          name: 'Imie i nazwisko',
+          messages: 890,
+          number: `#${25}`, // miejsce od najwiecej wiadomości
+        }
+        // jak nie znaleziono to  ustaw
+        // found: {
+        //   name: null,
+        //     messages: null,
+        //     number: null,
+        // },
+        this.found = found
+      },
+    },
+  }
+</script>
+
+<style scoped>
+  .anim {
+    animation: slide-in 0.5s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+  }
+  .anim2{
+    animation: slide-in2 0.5s forwards;
+    opacity: 0;
+  }
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px)
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-in2 {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px)
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+</style>
