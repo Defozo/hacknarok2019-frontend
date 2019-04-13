@@ -14,6 +14,7 @@
     "jszip": "^3.2.1",
     "sentiment-polish": "^1.0.0",
     "vue": "^2.6.6",
+    "vue-analytics": "^5.16.4",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
