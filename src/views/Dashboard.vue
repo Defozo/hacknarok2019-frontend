@@ -1,8 +1,8 @@
 <template>
   <div class="w-full relative overflow-hidden">
-      <img id="blob1" src="../assets/Blob.svg">
-      <img id="blob2" src="../assets/tache-dencre.png">
-      <img id="blob3" src="../assets/tache-dencre.png">
+    <img id="blob1" src="../assets/Blob.svg">
+    <img id="blob2" src="../assets/tache-dencre.png">
+    <img id="blob3" src="../assets/tache-dencre.png">
 
     <div class="dashboard">
       <div class="flex justify-between">
@@ -20,8 +20,8 @@
   import MostMessaged from '../widgets/MostMessaged'
   import WordsUsedWidget from '../widgets/WordsUsedWidget'
   import MessagesWithChoosen from '../widgets/MessagesWithChoosen'
-  import Profile from "../widgets/Profile";
-  import ChooseWordWidget from "../widgets/ChooseWordWidget";
+  import Profile from '../widgets/Profile'
+  import ChooseWordWidget from '../widgets/ChooseWordWidget'
 
   export default {
     name: 'Dashboard',

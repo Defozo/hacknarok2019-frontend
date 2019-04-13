@@ -73,7 +73,6 @@
 
         this.setTotalWords(processor.totalWords)
         this.setTotalMessages(processor.totalMessages)
-        console.log(processor.allWords)
         this.setWords(processor.allWords)
         const count = processor.countWords()
         return {
@@ -122,8 +121,6 @@
         this.setOwner(owner)
 
         const allMessages = await zipHandler.getAllMessages(owner)
-
-        console.log(allMessages)
 
         const min = _.min(allMessages.flatMap(message => message.messages)
           .map(message => message.date))

@@ -1,13 +1,12 @@
-const fs = require('fs');
-const Sanitizer = require('./Sanitizer');
-const Processor = require('./Processor');
+const fs = require('fs')
+// const Sanitizer = require('./Sanitizer')
+const Processor = require('./Processor')
 // const MessageProcessor = require('./BatchProcessor');
-const ProcessingUtils = require('./ProcessingUtils');
+// const ProcessingUtils = require('./ProcessingUtils')
 
-
-const sanitizer = new Sanitizer();
-const processor = new Processor();
-const utils = new ProcessingUtils();
+// const sanitizer = new Sanitizer()
+const processor = new Processor()
+// const utils = new ProcessingUtils()
 //
 const rawdata = fs.readFileSync('src/files/message_1.json')
 const input = JSON.parse(rawdata)
@@ -17,7 +16,4 @@ processor.setup(input)
 // const mp = new MessageProcessor(input, "Lalala");
 // const mp = new MessageProcessor(input, "Lalala");
 // mp.setup();
-console.log(processor.words['jest']);
-
-
 

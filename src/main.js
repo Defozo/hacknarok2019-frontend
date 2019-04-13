@@ -10,12 +10,12 @@ Vue.use(VueAnalytics, {
   id: 'UA-138307154-1',
   router,
   autoTracking: {
-    exception: true
+    exception: true,
   },
   debug: {
     enabled: !isProd,
-    sendHitTask: isProd
-  }
+    sendHitTask: isProd,
+  },
 })
 
 Vue.config.productionTip = false

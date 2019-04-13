@@ -11,4 +11,3 @@ export const GET_TOTAL_CONVERSATION = 'getTotalConversation'
 export const GET_TIMING = 'getTiming'
 export const GET_WORDS = 'getWords'
 
-

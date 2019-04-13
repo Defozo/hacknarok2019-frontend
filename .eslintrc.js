@@ -1,11 +1,11 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
   },
   'extends': [
     'plugin:vue/essential',
-    'eslint:recommended'
+    'eslint:recommended',
   ],
   rules: {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -59,7 +59,6 @@ module.exports = {
     'vue/html-indent': ['warn', 2],
     'vue/attributes-order': 'off',
     'vue/max-attributes-per-line': 'off',
-    'vue/order-in-components': 'off',
     'vue/html-self-closing': ['warn', {
       'html': {
         'void': 'never',
@@ -121,6 +120,6 @@ module.exports = {
     }],
   },
   parserOptions: {
-    parser: 'babel-eslint'
-  }
+    parser: 'babel-eslint',
+  },
 }
