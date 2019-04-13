@@ -20,7 +20,6 @@ export default class BatchProcessor extends Processor {
 
     this.totalWords = messageString.split(' ').length
     this.totalMessages = messagesOfAUser.length
-    console.log(this.totalMessages)
 
     const { longWords, allWords, emojis } = this.utils.setup(messageString)
 

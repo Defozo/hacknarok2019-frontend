@@ -37,7 +37,6 @@
       search() {
         const words = this.getWords
         const count = words[this.searchedPhrase]
-        console.log(count)
         this.found = (count !== undefined) ? count : 'Not found'
       },
     },

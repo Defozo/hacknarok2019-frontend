@@ -86,7 +86,6 @@
             lastMessageDate: null,
           }
         } else {
-          console.log(participants[index])
           this.found = {
             name: participants[index].name,
             messages: participants[index].messages,
