@@ -1,5 +1,9 @@
 version: 0.2
 
+env:
+  variables:
+    NODE_ENV: "production"
+
 phases:
   build:
     commands:
@@ -13,7 +17,7 @@ phases:
       - aws s3 sync dist/ s3://yomessages.tk/ --metadata-directive REPLACE --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type application/javascript --exclude='*' --include='service-worker.js' --acl public-read --sse --delete
       - aws s3 sync dist/ s3://yomessages.tk/ --cache-control="max-age=604800,public" --exclude='*.html' --exclude='service-worker.js' --acl public-read --sse --delete
       - aws configure set preview.cloudfront true
-      - aws cloudfront create-invalidation --distribution-id E37BL7O63ZT14H --paths '/map/*'
+      - aws cloudfront create-invalidation --distribution-id E37BL7O63ZT14H --paths '/*'
   post_build:
     commands:
       - cat /root/.npm/_logs/* || true
