@@ -11,7 +11,7 @@
     "core-js": "^2.6.5",
     "iconv-lite": "^0.4.24",
     "javascript-time-ago": "^2.0.1",
-    "jszip": "^3.2.1",
+    "jszip": "git+https://github.com/Defozo/jszip.git",
     "sentiment-polish": "^1.0.0",
     "vue": "^2.6.6",
     "vue-analytics": "^5.16.4",
